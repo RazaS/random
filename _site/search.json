@@ -26,5 +26,103 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "tmlinks.html",
+    "href": "tmlinks.html",
+    "title": "Transfusion Links",
+    "section": "",
+    "text": "ISBT Blood Group Tables\nCBS Clinical Guide to Transfusion\nAustralia Learn Transfusion\nTransfusion Library"
+  },
+  {
+    "objectID": "tmlinks.html#resources",
+    "href": "tmlinks.html#resources",
+    "title": "Transfusion Links",
+    "section": "",
+    "text": "ISBT Blood Group Tables\nCBS Clinical Guide to Transfusion\nAustralia Learn Transfusion\nTransfusion Library"
+  },
+  {
+    "objectID": "tmlinks.html#canadian-standards",
+    "href": "tmlinks.html#canadian-standards",
+    "title": "Transfusion Links",
+    "section": "Canadian Standards",
+    "text": "Canadian Standards\n\nNational Advisory Committee on Blood\nORBCon"
+  },
+  {
+    "objectID": "tmlinks.html#calculators-and-tools",
+    "href": "tmlinks.html#calculators-and-tools",
+    "title": "Transfusion Links",
+    "section": "Calculators and Tools",
+    "text": "Calculators and Tools\n\nPortfolio Progress\nTransfusion Library (searchable)\nAntigen Excluder\nTransfusion Reaction Classifier\nRBC Alloimmunization Prediction Tool (RAPID)\nAntigen Ethnicity Predictor\nHeme Calculators for IVIG/BMI\nAnti-Xa Heparin Nomogram UHN\nArgatroban Nomogram UHN"
+  },
+  {
+    "objectID": "tmlinks.html#remote-access-links",
+    "href": "tmlinks.html#remote-access-links",
+    "title": "Transfusion Links",
+    "section": "Remote Access Links",
+    "text": "Remote Access Links\n\nSinai Remote Access\nUHN Remote Access\nUHN Intranet\nUHN Email Login\nSunnybrook Remote Access\nSt Michael’s Remote Access\nSt Michael’s Email Login"
+  },
+  {
+    "objectID": "tmlinks.html#apheresis",
+    "href": "tmlinks.html#apheresis",
+    "title": "Transfusion Links",
+    "section": "Apheresis",
+    "text": "Apheresis\n\nASFA Apheresis Guidelines"
+  },
+  {
+    "objectID": "tmlinks.html#guidelines",
+    "href": "tmlinks.html#guidelines",
+    "title": "Transfusion Links",
+    "section": "Guidelines",
+    "text": "Guidelines\n\nPLEX Guidelines 2019\nThrombosis Canada\nNCCN Guidelines\nBSH Guidelines\nHow I Treat Series\nMcMaster CLOT Summaries"
+  },
+  {
+    "objectID": "tmlinks.html#digital-tools",
+    "href": "tmlinks.html#digital-tools",
+    "title": "Transfusion Links",
+    "section": "Digital Tools",
+    "text": "Digital Tools\n\nRaspberry Pi: PiTunnel for GUI and RPi Tunnel\nChatGPT Login"
+  },
+  {
+    "objectID": "tmlinks.html#professional-associations",
+    "href": "tmlinks.html#professional-associations",
+    "title": "Transfusion Links",
+    "section": "Professional Associations",
+    "text": "Professional Associations\n\nAABB\nASFA\nCSTM\nCBS\nICTMG"
+  },
+  {
+    "objectID": "tmlinks.html#podcastsblogs",
+    "href": "tmlinks.html#podcastsblogs",
+    "title": "Transfusion Links",
+    "section": "Podcasts/Blogs",
+    "text": "Podcasts/Blogs\n\nBloodbank Guy\nCSTM Blog\nBloodnotes CBS"
+  },
+  {
+    "objectID": "tmlinks.html#forms",
+    "href": "tmlinks.html#forms",
+    "title": "Transfusion Links",
+    "section": "Forms",
+    "text": "Forms\n\nIVIG Request Form (Ontario)\nOutpatient Lab Requisition Form (Ontario)\nGeneric UHN Prescription\nUHN Prog"
+  },
+  {
+    "objectID": "tmlinks.html#note-templates",
+    "href": "tmlinks.html#note-templates",
+    "title": "Transfusion Links",
+    "section": "Note Templates",
+    "text": "Note Templates\n\nGeneral Consult Note\nThrombosis Note\nProgress Note\nNote Writer (Beta)"
+  },
+  {
+    "objectID": "tmlinks.html#schedules-and-files",
+    "href": "tmlinks.html#schedules-and-files",
+    "title": "Transfusion Links",
+    "section": "Schedules and Files",
+    "text": "Schedules and Files\n\nRotation Schedule"
+  },
+  {
+    "objectID": "tmlinks.html#billing",
+    "href": "tmlinks.html#billing",
+    "title": "Transfusion Links",
+    "section": "Billing",
+    "text": "Billing\n\nBilling Hotlinks\nOn-Call Billing Sheet\nCheatsheet GIM\nGIM Billing Card\nCheatsheet Heme\nOHIP Billing (Heme/GIM/Premium)\nOHIP Premiums\nOHIP Telemedicine"
   }
 ]

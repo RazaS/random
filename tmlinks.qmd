@@ -1,0 +1,107 @@
+---
+title: "Transfusion Links"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+## Resources
+
+-   [ISBT Blood Group Tables](https://www.isbtweb.org/isbt-working-parties/rcibgt/blood-group-allele-tables.html#blood%20group%20allele%20tables)
+-   [CBS Clinical Guide to Transfusion](https://professionaleducation.blood.ca/en/transfusion/clinical-guide-transfusion)
+-   [Australia Learn Transfusion](https://learn.transfusion.com.au/login/index.php)
+-   [Transfusion Library](https://docs.google.com/spreadsheets/d/1lHiN9ylgETSnil9SohbUYq2DmVm80vS9tY5A3IGoBFA/edit?usp=sharing)
+
+## Canadian Standards
+
+-   [National Advisory Committee on Blood](http://nacblood.ca/)
+-   [ORBCon](https://transfusionontario.org/)
+
+## Calculators and Tools
+
+-   [Portfolio Progress](https://github.com/users/RazaS/projects/3/views/3)
+-   [Transfusion Library (searchable)](https://razas2.shinyapps.io/Transfusion_Library/)
+-   [Antigen Excluder](https://razas2.shinyapps.io/AntigenExcluder/)
+-   [Transfusion Reaction Classifier](https://razas.shinyapps.io/TRX_Classifier/)
+-   [RBC Alloimmunization Prediction Tool (RAPID)](https://razas.shinyapps.io/Donor_Prediction/)
+-   [Antigen Ethnicity Predictor](https://razas2.shinyapps.io/RAPID_Ethnicity_Predictor)
+-   [Heme Calculators for IVIG/BMI](https://ivig.transfusionontario.org/?b=sp&sp=1)
+-   [Anti-Xa Heparin Nomogram UHN](Anti-Xa-Heparin-Nomogram.pdf)
+-   [Argatroban Nomogram UHN](Argatroban-2019-Nomogram.pdf)
+
+## Remote Access Links
+
+-   [Sinai Remote Access](https://citrix.sinaihealthsystem.ca/vpn/index.html)
+-   [UHN Remote Access](https://mydigitalapps.uhn.ca/)
+-   [UHN Intranet](https://intranet.remote.uhn.ca/vpn/index.html)
+-   [UHN Email Login](https://login.microsoftonline.com/login.srf)
+-   [Sunnybrook Remote Access](https://vdi.sunnybrook.ca/)
+-   [St Michael's Remote Access](https://citrix.unityhealth.to/logon/LogonPoint/tmindex.html)
+-   [St Michael's Email Login](https://fortiportal.unityhealth.to/remote/login?lang=en)
+
+## Apheresis
+
+-   [ASFA Apheresis Guidelines](https://www.ammtac.org/docs/articulos/ASFA%202019%20guidelines.pdf)
+
+## Guidelines
+
+-   [PLEX Guidelines 2019](https://onlinelibrary-wiley-com.myaccess.library.utoronto.ca/doi/epdf/10.1002/jca.21705)
+-   [Thrombosis Canada](https://thrombosiscanada.ca/clinicalguides/)
+-   [NCCN Guidelines](https://www.nccn.org/guidelines/category_1)
+-   [BSH Guidelines](https://b-s-h.org.uk/guidelines/)
+-   [How I Treat Series](https://ashpublications.org/blood/search-results?fl_SiteID=1000001&page=1&f_Subjects=How%20I%20Treat)
+-   [McMaster CLOT Summaries](https://plus.mcmaster.ca/ClotPlus/Articles/EvidenceSummaries)
+
+## Digital Tools
+
+-   [Raspberry Pi: PiTunnel for GUI and RPi Tunnel](https://pitunnel.com/)
+-   [ChatGPT Login](https://chat.openai.com/)
+
+## Professional Associations
+
+-   [AABB](https://www.aabb.org/)
+-   [ASFA](https://www.apheresis.org/)
+-   [CSTM](https://www.transfusion.ca/Home)
+-   [CBS](https://www.blood.ca/en)
+-   [ICTMG](https://www.ictmg.org/)
+
+## Podcasts/Blogs
+
+-   [Bloodbank Guy](http://bbguy.org/education/)
+-   [CSTM Blog](https://www.transfusion.ca/Resources/CSTM-Blog)
+-   [Bloodnotes CBS](https://www.blood.ca/en/hospitals/bloodnotes)
+
+## Forms
+
+-   [IVIG Request Form (Ontario)](https://ontariorheum.ca/images/uploads/content_documents/Ontario-MOHLTC-IVIG-Request-Form_(2).pdf)
+-   [Outpatient Lab Requisition Form (Ontario)](http://www.forms.ssb.gov.on.ca/mbs/ssb/forms/ssbforms.nsf/FormDetail?OpenForm&ACT=RDR&TAB=PROFILE&ENV=WWE&NO=014-4422-84)
+-   [Generic UHN Prescription](s_raza/rx.docx)
+-   [UHN Prog](s_raza/uhnnote.docx)
+
+## Note Templates
+
+-   [General Consult Note](s_raza/consultnote.html)
+-   [Thrombosis Note](s_raza/thrombosisnote.html)
+-   [Progress Note](s_raza/prognote.html)
+-   [Note Writer (Beta)](s_raza/notewriter.html)
+
+## Schedules and Files
+
+-   [Rotation Schedule](#)
+
+## Billing
+
+-   [Billing Hotlinks](s_raza/billing.pdf)
+-   [On-Call Billing Sheet](s_raza/GIMOnCallBilling.docx)
+-   [Cheatsheet GIM](s_raza/billing.pdf)
+-   [GIM Billing Card](s_raza/gim-temp.pdf)
+-   [Cheatsheet Heme](s_raza/billing.pdf)
+-   [OHIP Billing (Heme/GIM/Premium)](s_raza/OHIP_schedule-min.pdf)
+-   [OHIP Premiums](s_raza/ohip_premiums-min.pdf)
+-   [OHIP Telemedicine](s_raza/otn_codes-min.pdf)
