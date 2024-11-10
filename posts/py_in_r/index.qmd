@@ -2,7 +2,7 @@
 title: "Python in R"
 author: "Raza"
 date: "2024-11-09"
-categories: [list,culture]
+categories: [coding]
 image: "image.jpg"
 ---
 
