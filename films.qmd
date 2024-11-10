@@ -1,0 +1,726 @@
+---
+title: "Films"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+<details>
+
+<summary>To See</summary>
+
+-   I Lost My Body
+-   The Tale
+-   Collateral
+-   Oblivion
+
+</details>
+
+<details>
+
+<summary>Seen, Awaiting Category</summary>
+
+-   Soylent Green
+-   The Wild Robot
+-   Sing Sing
+-   Whiplash
+-   Good One
+-   Suzume
+-   Mad Max: Furiosa
+-   Dune 1 and 2
+-   Sorry to Bother You
+-   Butch Cassidy and the Sundance Kid
+-   The Wild Bunch
+-   A Few Dollars More
+-   Escape from New York
+-   The Rainmaker
+-   Knives Out
+-   Searching for Bobby Fischer
+-   Miller's Crossing
+-   Bill and Ted's Excellent Adventure
+-   Cell 211
+-   Old Henry
+-   The Manchurian Candidate
+-   The Talented Mr. Ripley
+-   Europa Report
+-   Once Upon a Time in the West
+-   The Wind That Shakes the Barley
+-   Judas and the Black Messiah
+-   Nope
+-   Oldboy
+-   Daybreakers
+-   All Light Everywhere
+-   The Banshees of Inisherin
+-   The Vast of Night
+-   The Right Stuff
+-   Triangle of Sadness
+-   The Expanse
+
+</details>
+
+<br>
+
+#### Films with Ratings and Categories
+
+<br>
+
+<details>
+
+<summary>-1- Off-beat Action Films with Substance, Style, and a Sense of Ironic Humor</summary>
+
+-   \*\*\*\* Inglourious Basterds
+-   \*\*\*\* Burn After Reading
+-   \*\*\*\* Hot Fuzz
+-   \*\*\*\*\* Kill Bill Volume I & II
+-   \*\*\* Face Off
+-   \*\*\*\*\*\* Lock Stock and Two Smoking Barrels
+-   \*\*\*\*\* Snatch
+-   \*\*\*\*\* Django Unchained
+-   \*\*\*\*\* Reservoir Dogs
+-   \*\*\*\*\*\*\* Pulp Fiction
+-   \*\*\*\*\*\*\* Heat
+-   \*\*\* Oceans Twelve
+-   \*\*\* Be Cool
+-   \*\*\*\*\* The Town
+-   \*\*\*\* Kick Ass
+-   \*\*\* BlackkKlansmen
+-   \*\*\* Baby Driver
+-   \*\*\*\*\* Villainess
+
+</details>
+
+<details>
+
+<summary>-2- Films Based on Historical Periods, Often Hard-Hitting</summary>
+
+-   \*\*\*\*\*\*\* Waltz With Bashir
+-   \*\*\*\*\*\*\* It's Such a Beautiful Day
+-   \*\*\*\*\* Argo
+-   \*\*\*\*\*\*\* Persepolis
+-   \*\*\*\*\*\* Gomorrah
+-   \*\*\*\*\*\* Sicario
+-   \*\*\*\*\* Battle of Chernobyl
+-   \*\*\*\* The Prophet
+
+</details>
+
+<details>
+
+<summary>-3- Experimental Short Films</summary>
+
+-   \*\*\*\*\*\*\* Ryan (Short)
+-   \*\*\*\*\*\* Crumb
+-   \*\*\* I Sisyphus (Short)
+-   \*\*\*\* I Met The Walrus (Short)
+-   \*\*\* An Andalusian Dog
+
+</details>
+
+<details>
+
+<summary>-4- Documentaries on Social Phenomena</summary>
+
+-   \*\*\*\* Religilous
+-   \*\*\*\*\* Kedi
+-   \*\*\*\*\*\* Why We Fight
+-   \*\*\*\* Hitler: The Rise of Evil
+-   \*\*\* God Grew Tired of Us
+-   \*\*\*\*\*\* Doctor’s Diaries
+-   \*\*\*\*\*\* Prohibition
+-   \*\*\*\*\* Manufacturing Consent: Noam Chomsky and the Media (1992)
+-   \*\*\*\*\*\*\* Shake Hands With The Devil
+-   \*\*\*\*\*\*\* The War You Don't See
+-   \*\*\*\* Sicko
+-   \*\*\*\*\* Inside Job
+-   \*\*\*\*\*\* Spotlight
+-   \*\*\*\*\* Merchants of Doubt
+-   \*\*\*\*\* Minecraft: The Story of Mojang
+-   \*\*\*\*\*\* Food Inc
+-   \*\*\*\*\*\* The Big Short
+-   \*\*\*\* Food Matters
+-   \*\*\* Super Size Me
+-   \*\*\*\* Jesus Camp
+-   \*\*\* A Better Life
+-   \*\*\*\*\* Catfish
+-   \*\*\*\*\* Das Boot
+
+</details>
+
+<details>
+
+<summary>-5- Documentaries About Inspiring Performers, Mostly Musicians</summary>
+
+-   \*\*\*\* Live! Tonight! Sold Out!!
+-   \*\*\* Live At Reading
+-   \*\*\*\*\*\*\* The Devil And Daniel Johnston
+-   \*\*\*\*\*\* About a Son
+-   \*\*\*\*\*\* Cobain: Montage of Heck
+-   \*\*\*\*\* John Lennon Vs US
+-   \*\*\*\*\*\*\* Man on Wire
+-   \*\*\*\* A Hard Day’s Night
+-   \*\*\*\*\* 8 Mile
+
+</details>
+
+<details>
+
+<summary>-6- The Best of Psychological Thrillers</summary>
+
+-   \*\*\*\*\*\*\* Se7en
+-   \*\*\*\*\* Gone Girl
+-   \*\*\*\*\* Mystic River
+-   \*\*\*\* Pathology
+-   \*\*\*\*\* Dallas Buyers Club
+-   \*\*\*\*\* Puncture
+-   \*\*\*\*\* A Scanner Darkly
+-   \*\*\*\* The Zodiac Killer
+-   \*\*\*\*\*\* Fermat’s Room
+-   \*\*\*\* Cube
+-   \*\*\*\*\*\*\* Silence of the Lambs
+-   \*\*\* Red Dragon
+-   \*\*\* The Girl With the Dragon Tattoo (English)
+-   \*\*\*\* 21 Grams
+-   \*\*\*\*\*\* The Double
+-   \*\*\*\* Super 8
+-   \*\*\*\*\*\* Memento
+-   \*\*\*\* John Wick
+-   \*\*\*\* American Psycho
+-   \*\*\*\*\*\* Nightcrawler
+-   \*\*\*\*\* Get Out
+-   \*\*\*\*\*\*\* The Handmaiden
+
+</details>
+
+<details>
+
+<summary>-7- Guilty-Pleasure Comedies</summary>
+
+-   \*\*\*\*\* Borat
+-   \*\*\* Bruno
+-   \*\*\*\*\* Southpark Bigger Longer Uncut
+-   \*\*\*\* Idiocracy
+-   \*\*\* Jackass 1-2
+-   \*\*\* Austin Powers
+-   \*\*\*\* Strange Wilderness
+-   \*\*\* MacGruber
+-   \*\*\*\*\* Kung Fury
+-   \*\*\* Kenny
+
+</details>
+
+<details>
+
+<summary>-8- Guilty-Pleasure Comedies (Less So)</summary>
+
+-   \*\*\*\* 40 Year Old Virgin
+-   \*\*\*\*\*\* Superbad
+-   \*\*\*\* Juno
+-   \*\*\*\* The Hangover
+
+</details>
+
+<details>
+
+<summary>-9- Esoteric, Socially Meaningful Comedies</summary>
+
+-   \*\*\*\*\*\*\* Office Space
+-   \*\*\*\* Sideways
+-   \*\*\*\*\* The Big Lebowski
+-   \*\*\*\*\* Napoleon Dynamite
+
+</details>
+
+<details>
+
+<summary>-10- Fantasy Films with Wonder and Adventure</summary>
+
+-   \*\*\*\* Pirates of the Caribbean 1-2
+-   \*\*\*\* The Day After Tomorrow
+-   \*\*\*\* The Revenant
+-   \*\*\*\*\* Lord of the Rings Trilogy
+-   \*\*\*\*\*\*\* Pan’s Labyrinth
+-   \*\*\*\*\*\*\* The Fountain
+-   \*\*\*\*\* Hugo
+-   \*\*\*\*\* Harry Potter Series
+-   \*\*\*\* Avatar
+-   \*\*\*\*\* Shape of Water
+-   \*\*\* Okja
+-   \*\*\*\* Planet of the Apes
+
+</details>
+
+<details>
+
+<summary>-11- Animated 3D Films, Feel-Good Stories</summary>
+
+-   \*\*\*\*\*\*\* Wall-E
+-   \*\*\*\*\* Toy Story 2
+-   \*\*\*\*\* Chicken Run
+-   \*\*\*\*\* Toy Story 3
+-   \*\*\*\*\*\* A Bug's Life
+-   \*\*\* The Incredibles
+-   \*\*\*\*\*\* Frozen
+-   \*\*\*\* E.T.
+-   \*\*\*\*\*\* Finding Nemo
+-   \*\*\*\*\* Up
+-   \*\*\*\* Inside Out
+
+</details>
+
+<details>
+
+<summary>-12- Animated Cartoons, Mostly for Children</summary>
+
+-   \*\*\*\* Hercules
+-   \*\*\*\*\*\* Pinocchio
+-   \*\*\*\*\*\*\* Lion King
+-   \*\*\*\*\* Lion, the Witch, and the Wardrobe (1979)
+-   \*\*\*\*\*\* Nausicaa of the Valley of the Wind
+
+</details>
+
+<details>
+
+<summary>-13- Action Movies with Substance, Dark and Visceral</summary>
+
+-   \*\*\*\* Bourne Trilogy
+-   \*\*\*\* Die Hard
+-   \*\*\*\*\* Speed
+-   \*\*\*\*\*\* The Terminator 1 and 2
+-   \*\*\*\*\*\*\* Snowpiercer
+-   \*\*\*\*\* Mad Max
+-   \*\*\*\*\*\* Mad Max 2
+-   \*\*\*\*\*\* Mad Max: Fury Road
+-   \*\*\*\*\*\* Blade Runner
+
+</details>
+
+<details>
+
+<summary>-14- Action Films with Drama Elements</summary>
+
+-   \*\*\*\*\*\*\* Bonnie and Clyde
+-   \*\*\*\*\*\*\* Chinatown
+-   \*\*\*\*\*\* The Grifters
+-   \*\*\*\*\* Blue Velvet
+-   \*\*\*\*\* All About My Mother
+-   \*\*\*\* Drive
+-   \*\*\*\*\*\* Leon
+
+</details>
+
+<details>
+
+<summary>-15- Superhero Movies</summary>
+
+-   \*\*\*\*\* Iron Man
+-   \*\*\*\* Star Trek (2009)
+-   \*\*\*\*\* Star Wars (Original Trilogy)
+-   \*\*\*\* Unbreakable
+-   \*\*\*\*\*\*\* The Dark Knight
+-   \*\*\* Logan
+-   \*\*\* Black Panther
+-   \*\*\* Deadpool
+
+</details>
+
+<details>
+
+<summary>-16- Inspiring Science Fiction Movies</summary>
+
+-   \*\*\*\*\*\* The Matrix
+-   \*\*\*\* Blade Runner 2049
+-   \*\*\*\*\* Inception
+-   \*\*\*\* Transcendence
+-   \*\*\*\*\*\* Sunshine
+-   \*\*\*\*\* Gattaca
+-   \*\*\*\*\*\* Gravity
+-   \*\*\*\* Interstellar
+-   \*\*\*\*\* The Martian
+-   \*\*\*\*\* Animatrix
+-   \*\*\*\* Existenz
+-   \*\*\* Splice
+-   \*\*\*\*\* Ex Machina
+-   \*\*\*\* Source Code
+-   \*\*\*\* Minority Report
+-   \*\*\*\*\* Annihilation
+-   \*\*\*\* Sleepdealer
+-   \*\*\*\*\* Hero (2002)
+
+</details>
+
+<details>
+
+<summary>-17- Bildungsroman, Character-Driven Plots</summary>
+
+-   \*\*\*\* Jaws
+-   \*\*\*\*\* Topgun
+-   \*\*\*\*\*\* Rocky
+-   \*\*\*\* Creed
+-   \*\*\*\*\* Raging Bull
+-   \*\*\*\*\*\*\* The Wrestler
+-   \*\*\*\* The Fighter
+
+</details>
+
+<details>
+
+<summary>-18- Non-Traditional Westerns</summary>
+
+-   \*\*\*\* Space Cowboys
+-   \*\*\*\*\*\*\* No Country for Old Men
+-   \*\*\*\*\* True Grit
+-   \*\*\*\*\*\* The Hateful Eight
+-   \*\*\*\* Dead Man
+-   \*\*\*\*\* Gran Torino
+
+</details>
+
+<details>
+
+<summary>-19- Inspiring Biopics Based on Historical Figures</summary>
+
+-   \*\*\*\* Charlie Wilson’s War
+-   \*\*\*\*\* Milk
+-   \*\*\*\*\* Frost / Nixon
+-   \*\*\*\*\*\* Citizenfour
+-   \*\*\*\*\* Client 9 – The Rise and Fall of Eliot Spitzer
+-   \*\*\*\*\* Schindler’s List
+-   \*\*\*\*\*\* The Lives of Others
+-   \*\*\*\*\*\*\* The Pianist
+-   \*\*\*\*\*\*\* Gandhi
+-   \*\*\*\*\*\* Lincoln
+-   \*\*\*\* Bronson
+-   \*\*\*\*\* Control
+-   \*\*\*\*\*\* A Man for All Seasons
+-   \*\*\* The Disaster Artist
+
+</details>
+
+<details>
+
+<summary>-20- Intense Psychological Thrillers with Sci-Fi Elements</summary>
+
+-   \*\*\*\*\*\*\* Children of Men
+-   \*\*\*\* 28 Days Later
+-   \*\*\*\*\* Contagion
+-   \*\*\*\*\*\*\* The Hurt Locker
+-   \*\*\*\*\*\* Blood Diamond
+
+</details>
+
+<details>
+
+<summary>-21- Mystery with Interwoven Plot Twists</summary>
+
+-   \*\*\*\*\*\*\* Inside Man
+-   \*\*\*\*\*\* The Usual Suspects
+
+</details>
+
+<details>
+
+<summary>-22- Films Built Around Excellent Characters</summary>
+
+-   \*\*\*\* Few Good Men
+-   \*\*\*\* Hacksaw Ridge
+-   \*\*\*\*\*\* The Terminal
+-   \*\*\*\*\* Sully
+-   \*\*\*\*\* Saving Private Ryan
+-   \*\*\* Dunkirk
+-   \*\*\*\*\* The King’s Speech
+-   \*\*\*\*\*\* Forrest Gump
+-   \*\*\*\*\*\* Birdman
+-   \*\*\*\*\* Patch Adams
+-   \*\*\*\*\* Billy Elliot
+-   \*\*\*\*\*\* 12 Years a Slave
+-   \*\*\*\* Born on the Fourth of July
+-   \*\*\*\*\* The Social Network
+-   \*\*\*\*\*\*\* There Will Be Blood
+-   \*\*\*\*\* Gladiator
+-   \*\*\*\* The Great Debaters
+-   \*\*\*\*\* Cast Away
+-   \*\*\*\* Dante’s Peak
+-   \*\*\*\* Arctic
+-   \*\*\*\* Moneyball
+-   \*\*\*\*\* The Green Mile
+-   \*\*\*\*\*\*\* The Aviator
+-   \*\*\*\*\* Michael Clayton
+-   \*\*\*\* Slumdog Millionaire
+-   \*\*\*\*\* Ford vs. Ferrari
+-   \*\*\*\*\* Blow-Up
+-   \*\*\*\* Lion
+-   \*\*\*\*\* Moonlight
+-   \*\*\*\*\*\* Ida
+-   \*\*\*\* The Shawshank Redemption
+-   \*\*\*\*\* Dolemite is My Name
+
+</details>
+
+<details>
+
+<summary>-23- Classic Films</summary>
+
+Classic films. These are paced slower (exception Hitchcock), avant-garde and not for everyone.
+
+-   \*\*\* Eraserhead
+-   \*\*\*\*\* Stranger than Paradise
+-   \*\*\* Teorema
+-   \*\*\*\*\* Mister Lonely
+-   \*\*\*\*\* Last Year at Marienbad
+-   \*\*\*\*\*\*\* Hiroshima Mon Amour
+-   \*\*\*\*\* 2001: A Space Odyssey
+-   \*\*\*\* The Cabinet of Dr Caligari
+-   \*\*\*\*\*\* Psycho
+-   \*\*\*\* Vertigo
+-   \*\*\*\* Amor Estranho Amor
+-   \*\*\*\*\*\*\* The Tenant
+
+</details>
+
+<details>
+
+<summary>-24- Mainstream Classics</summary>
+
+Mainstream classics. Good to have in your vocabulary if you're a film buff, good for igniting nostalgia.
+
+-   \*\*\*\*\*\*\* Strangers On A Train
+-   \*\*\*\*\*\* Dr Strangelove
+-   \*\*\*\* It’s a Wonderful Life
+-   \*\*\*\*\* Stagecoach
+-   \*\*\*\* Arsenic and Old Lace
+-   \*\*\*\*\* Casablanca
+-   \*\*\*\* A Streetcar Named Desire
+-   \*\*\* Saturday Night Fever
+-   \*\*\*\*\*\*\* Citizen Kane
+-   \*\*\*\* In a Lonely Place
+-   \*\*\*\*\*\* Lolita
+
+</details>
+
+<details>
+
+<summary>-25- Psychological Thrillers on Dark Human Themes</summary>
+
+Psychological thrillers dealing with darker aspects of the human condition (drug use, self-identity, abuse).
+
+-   \*\*\*\*\* Boy A
+-   \*\*\*\* Mysterious Skin
+-   \*\*\*\*\*\* Trainspotting
+-   \*\*\*\*\*\* My Beautiful Laundrette
+-   \*\*\* The Girl Next Door
+-   \*\*\*\*\*\*\* Requiem for a Dream
+-   \*\*\*\*\* A Simple Plan
+-   \*\*\*\*\*\*\* Boys Don’t Cry
+-   \*\*\*\*\*\*\* Starred Up
+-   \*\*\*\*\* Black Swan
+-   \*\*\*\*\*\* Boyhood
+-   \*\*\*\*\* Kids
+-   \*\*\* Irréversible
+
+</details>
+
+<details>
+
+<summary>-26- Dark Psychological Thrillers, Male-Centric</summary>
+
+Well-made, classic, extremely entertaining psychological thrillers with dark subject matter, centered around male characters.
+
+-   \*\*\*\*\*\*\* Fight Club
+-   \*\*\*\*\*\*\* A Clockwork Orange
+-   \*\*\*\*\* American History X
+-   \*\*\*\*\* Bad Boys
+-   \*\*\*\*\* Cool Hand Luke
+
+</details>
+
+<details>
+
+<summary>-27- Action Films with Sci-Fi Roots</summary>
+
+Great action films with science fiction roots, plenty of suspense and entertainment. Well-constructed, original mise-en-scene.
+
+-   \*\*\*\*\* District 9
+-   \*\*\*\*\* Arrival
+-   \*\*\*\*\*\* Predator
+-   \*\*\*\* Contact
+-   \*\*\*\*\*\*\* Alien
+-   \*\*\*\* Prometheus
+-   \*\*\*\* Aliens
+-   \*\*\*\*\* Jurassic Park
+-   \*\*\*\* A Quiet Place
+
+</details>
+
+<details>
+
+<summary>-28- Off-Beat, Original Human Dramas</summary>
+
+Slightly off-beat, highly original human drama. Slow-paced, but rich in both production and entertainment value.
+
+-   \*\*\*\*\* Magnolia
+-   \*\*\*\*\*\* 500 Days of Summer
+-   \*\*\*\*\*\* Silver Linings Playbook
+-   \*\*\*\* I’m Here (Short)
+-   \*\*\*\* K-pax
+-   \*\*\*\* Kontroll
+-   \*\*\*\* The Squid and the Whale
+-   \*\*\*\*\* Little Miss Sunshine
+-   \*\*\*\*\*\* Amelie
+-   \*\*\*\* Doubt
+-   \*\*\*\* Up in the Air
+-   \*\*\*\* Palindromes
+-   \*\*\*\*\*\* Y Tu Mama Tambien
+-   \*\*\*\*\* Wristcutters: A Love Story
+-   \*\*\*\*\*\* Taxi Driver
+-   \*\*\*\*\*\* The Grand Budapest Hotel
+-   \*\*\*\*\* Moonrise Kingdom
+-   \*\*\*\* Beginners
+-   \*\*\*\*\* Hunt for the Wilderpeople
+-   \*\*\* I Heart Huckabees
+-   \*\*\*\*\* Cleo from 5 to 7
+-   \*\*\*\*\*\*\* One Flew Over The Cuckoo’s Nest
+-   \*\*\*\* Happiness
+-   \*\*\*\*\* Shame
+-   \*\*\*\* Life During Wartime
+-   \*\*\*\* American Beauty
+-   \*\*\*\*\* Rain Man
+-   \*\*\*\*\*\* Eternal Sunshine of the Spotless Mind
+-   \*\*\*\* The Florida Project
+-   \*\*\* The Big Sick
+-   \*\*\*\*\* Call Me by Your Name
+-   \*\*\* La La Land
+-   \*\*\*\*\*\*\* In the Mood for Love
+-   \*\*\*\* Chungking Express
+
+</details>
+
+<details>
+
+<summary>-29- Quintessential Psychological Thrillers</summary>
+
+Quintessential psychological thrillers. High entertainment value, with seminal performances by many great actors.
+
+-   \*\*\*\*\* The Machinist
+-   \*\*\*\*\*\* The Shining
+-   \*\*\*\*\*\* Shutter Island
+-   \*\*\*\*\*\* Primal Fear
+-   \*\*\*\*\* Donnie Darko
+-   \*\*\*\* The Butterfly Effect
+-   \*\*\*\*\*\* Being John Malkovich
+-   \*\*\*\*\*\* The Departed
+-   \*\*\*\*\* The Prestige
+-   \*\*\*\*\* V for Vendetta
+-   \*\*\*\*\* Killing of a Sacred Deer
+
+</details>
+
+<details>
+
+<summary>-30- Slow-Paced Suburban Dramas</summary>
+
+Slow-paced drama about suburban life, usually with a good message. Interesting plots.
+
+-   \*\*\*\* Stand By Me
+-   \*\*\*\*\* Pleasantville
+-   \*\*\*\* To Die For
+-   \*\*\*\* Baby It's You
+
+</details>
+
+<details>
+
+<summary>-31- Excellent Script-Driven Dramas</summary>
+
+Excellent scripts, drama, and high-entertainment value. I might merge this with category 22 in the near future.
+
+-   \*\*\*\* The Illusionist
+-   \*\*\*\*\*\* A Beautiful Mind
+-   \*\*\*\*\*\* The Theory of Everything
+-   \*\*\*\*\*\* The Imitation Game
+-   \*\*\*\*\* The Sixth Sense
+-   \*\*\*\*\*\* Pi
+-   \*\*\*\*\*\*\* Good Will Hunting
+-   \*\*\*\*\* The Curious Case of Benjamin Button
+
+</details>
+
+<details>
+
+<summary>-32- American Films with Quick-Witted Protagonists</summary>
+
+Very 'American' films. Watch these for their quick-witted protagonists, con artists, thieves and coming-of-age themes.
+
+-   \*\*\*\*\* The Truman Show
+-   \*\*\* Boiler Room
+-   \*\*\*\*\* Reality Bites
+-   \*\*\*\*\*\* Risky Business
+-   \*\*\*\* Rounders
+-   \*\*\*\*\*\*\* Catch Me If You Can
+-   \*\*\*\*\*\* Bridge of Spies
+-   \*\*\*\* House of Games
+-   \*\*\*\*\* Matchstick Men
+-   \*\*\*\*\* Blow Out
+
+</details>
+
+<details>
+
+<summary>-33- Tim Burton Films</summary>
+
+Tim Burton.
+
+-   \*\*\*\*\* Nightmare Before Christmas
+-   \*\*\*\* Ed Wood
+-   \*\*\*\* Sweeney Todd
+
+</details>
+
+<details>
+
+<summary>-34- American Gangster and Crime Dramas</summary>
+
+American Gangster and crime dramas. Classically entertaining and technically excellent films.
+
+-   \*\*\*\* Scarface
+-   \*\*\*\*\*\*\* Goodfellas
+-   \*\*\*\*\*\* Once Upon a Time in America
+-   \*\*\*\*\*\*\* Godfather I-II
+-   \*\*\*\* Donnie Brasco
+-   \*\*\*\*\*\* The Irishman
+
+</details>
+
+<details>
+
+<summary>-35- Beautiful Documentaries on Exotic Phenomena</summary>
+
+Beautiful documentaries about exotic phenomena. Watch for intellectual interest.
+
+-   \*\*\*\*\* Hubble 3D
+-   \*\*\*\*\*\* Helvetica
+-   \*\*\*\* Ant Attack BBC
+
+</details>
+
+<details>
+
+<summary>-36- Avant-Garde Animated Films</summary>
+
+Avant-garde animated films with themes of nihilism, psychopathology, and the nature of human existence.
+
+-   \*\*\*\*\*\* Rejected Cartoons
+-   \*\*\*\*\*\* Rejected
+-   \*\*\*\*\*\* It's Such a Beautiful Day
+-   \*\*\*\*\*\* Everything Will Be OK
+-   \*\*\*\*\* Salad Fingers
+-   \*\*\*\* Upstream Color
+-   \*\*\*\*\* The Tree of Life
+
+</details>

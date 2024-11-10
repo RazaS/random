@@ -12,7 +12,7 @@ website:
         href: https://twitter.com/razasn
 format:
   html:
-    theme: lux
+    theme: simplex
     css: styles.css
 
 editor: visual
