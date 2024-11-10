@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -203,78 +203,55 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="list,culture" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731224582168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2554">
-<div class="thumbnail">
-<p><a href="./posts/films/index.html" class="no-external"></a></p><a href="./posts/films/index.html" class="no-external">
-<p><img src="./posts/films/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/films/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/films/index.html" class="no-external">Films</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/films/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('list'); return false;">
-list
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('culture'); return false;">
-culture
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/films/index.html" class="no-external"><br></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/films/index.html" class="no-external">
-<div class="listing-date">
-Nov 9, 2024
-</div>
-<div class="listing-author">
-Raza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="coding" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731225195658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
-<div class="thumbnail">
-<p><a href="./posts/py_in_r/index.html" class="no-external"></a></p><a href="./posts/py_in_r/index.html" class="no-external">
-<p><img src="./posts/py_in_r/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/py_in_r/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/py_in_r/index.html" class="no-external">Python in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/py_in_r/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
-coding
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/py_in_r/index.html" class="no-external">Create a variable <code>x</code> in the Python session:</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/py_in_r/index.html" class="no-external">
-<div class="listing-date">
-Nov 9, 2024
-</div>
-<div class="listing-author">
-Raza
-</div>
-</a>
-</div>
-</div>
-</div>
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Title
+</th>
+<th>
+Categories
+</th>
+<th>
+Reading Time
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="list,culture" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731224582168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2554" data-listing-title-sort="Films" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Nov 9, 2024</span>
+</td>
+<td>
+<a href="./posts/films/index.html" class="title listing-title">Films</a>
+</td>
+<td>
+<span class="listing-categories">list, culture</span>
+</td>
+<td>
+<span class="listing-reading-time">13 min</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="coding" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731225195658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46" data-listing-title-sort="Python in R" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Nov 9, 2024</span>
+</td>
+<td>
+<a href="./posts/py_in_r/index.html" class="title listing-title">Python in R</a>
+</td>
+<td>
+<span class="listing-categories">coding</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

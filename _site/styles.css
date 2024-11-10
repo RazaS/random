@@ -11,7 +11,7 @@
 }
 
 .listing-description {
-    display: none;
+    display: none !important;
 }
 
 
