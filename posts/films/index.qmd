@@ -6,7 +6,6 @@ categories: [list,culture]
 image: "image.jpg"
 ---
 
-
 <details>
 
 <summary>To See</summary>
