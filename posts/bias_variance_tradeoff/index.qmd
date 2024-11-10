@@ -1,0 +1,28 @@
+---
+title: "XXXXXXX"
+author: "Raza"
+date: "2024-11-09"
+categories: [XXXX]
+image: "image.jpg"
+draft: true 
+---
+
+When you want to predict something one thing using another, you can let a mathematic
+
+Let's say what you are predicting has a j shaped relationship, as follows
+
+image here
+
+You can model this using a linear equation
+
+$$
+\text{MSE} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}
+$$
+
+Where: • Bias is given by: $$
+\text{Bias}^2 = \left( \mathbb{E}[\hat{f}(x)] - f(x) \right)^2
+$$ • Variance is given by: $$
+\text{Variance} = \mathbb{E} \left[ (\hat{f}(x) - \mathbb{E}[\hat{f}(x)])^2 \right]
+$$
+
+You can copy this directly into your LaTeX document. Let me know if you need further adjustments!
