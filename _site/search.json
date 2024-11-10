@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "random",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 9, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nNov 6, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 9, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\ntest post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 9, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nNov 6, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -124,5 +124,12 @@
     "title": "Transfusion Links",
     "section": "Billing",
     "text": "Billing\n\nBilling Hotlinks\nOn-Call Billing Sheet\nCheatsheet GIM\nGIM Billing Card\nCheatsheet Heme\nOHIP Billing (Heme/GIM/Premium)\nOHIP Premiums\nOHIP Telemedicine"
+  },
+  {
+    "objectID": "posts/test_post/index.html",
+    "href": "posts/test_post/index.html",
+    "title": "test post",
+    "section": "",
+    "text": "This is a post with executable code.\n\n2+2\n\n[1] 4"
   }
 ]
