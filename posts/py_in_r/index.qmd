@@ -6,7 +6,6 @@ categories: [coding]
 image: "image.jpg"
 ---
 
-
 ```{r, setup}
 library(reticulate)
 ```
@@ -23,8 +22,7 @@ Access the Python variable `x` in an R code chunk:
 py$x
 ```
 
-Create a new variable `y` in the Python session using R,
-and pass a data frame to `y`:
+Create a new variable `y` in the Python session using R, and pass a data frame to `y`:
 
 ```{r}
 py$y <- head(cars)
