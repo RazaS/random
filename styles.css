@@ -1,8 +1,19 @@
 /* css styles */
 
+/* Reduce padding for individual post items */
+.quarto-post {
+    padding: 0px; /* Adjust this value to your preference */
+    margin: 5px 0; /* Optional: Adjust or remove if necessary */
+}
+
 .thumbnail {
     display: none;
 }
+
+.listing-description {
+    display: none;
+}
+
 
 <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
   <div class="container-fluid">

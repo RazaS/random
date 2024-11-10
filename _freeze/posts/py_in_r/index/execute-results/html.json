@@ -1,8 +1,8 @@
 {
-  "hash": "8bb3d90b625f5c1903d6d2ddf06839ce",
+  "hash": "ff2b00a7c5b206079c34c0500e0efb58",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Python in R\"\nauthor: \"Raza\"\ndate: \"2024-11-09\"\ncategories: [list,culture]\nimage: \"image.jpg\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(reticulate)\n```\n:::\n\n\nCreate a variable `x` in the Python session:\n\n\n::: {.cell}\n\n```{.python .cell-code}\nx = [1, 2, 3]\n```\n:::\n\n\nAccess the Python variable `x` in an R code chunk:\n\n\n::: {.cell}\n\n```{.r .cell-code}\npy$x\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 1 2 3\n```\n\n\n:::\n:::\n\n\nCreate a new variable `y` in the Python session using R,\nand pass a data frame to `y`:\n\n\n::: {.cell}\n\n```{.r .cell-code}\npy$y <- head(cars)\n```\n:::\n\n\nPrint the variable `y` in Python:\n\n\n::: {.cell}\n\n```{.python .cell-code}\nprint(y)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n{'speed': [4.0, 4.0, 7.0, 7.0, 8.0, 9.0], 'dist': [2.0, 10.0, 4.0, 22.0, 16.0, 10.0]}\n```\n\n\n:::\n:::",
+    "markdown": "---\ntitle: \"Python in R\"\nauthor: \"Raza\"\ndate: \"2024-11-09\"\ncategories: [coding]\nimage: \"image.jpg\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(reticulate)\n```\n:::\n\n\nCreate a variable `x` in the Python session:\n\n\n::: {.cell}\n\n```{.python .cell-code}\nx = [1, 2, 3]\n```\n:::\n\n\nAccess the Python variable `x` in an R code chunk:\n\n\n::: {.cell}\n\n```{.r .cell-code}\npy$x\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 1 2 3\n```\n\n\n:::\n:::\n\n\nCreate a new variable `y` in the Python session using R,\nand pass a data frame to `y`:\n\n\n::: {.cell}\n\n```{.r .cell-code}\npy$y <- head(cars)\n```\n:::\n\n\nPrint the variable `y` in Python:\n\n\n::: {.cell}\n\n```{.python .cell-code}\nprint(y)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n{'speed': [4.0, 4.0, 7.0, 7.0, 8.0, 9.0], 'dist': [2.0, 10.0, 4.0, 22.0, 16.0, 10.0]}\n```\n\n\n:::\n:::",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
