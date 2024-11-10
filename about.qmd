@@ -2,7 +2,7 @@
 title: "About"
 image: profile.jpg
 about:
-  template: trestles
+  template: solana
   links:
     - icon: twitter
       text: Twitter
@@ -12,4 +12,4 @@ about:
       href: https://linkedin.com/sheharyar-raza-32310829/
 ---
 
-About this blog
+Raza is a physician interested in decision and data sciences.

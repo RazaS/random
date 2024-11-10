@@ -1,9 +1,8 @@
 /* css styles */
 
-.thumbnail-image {
-  display: none;
+.thumbnail {
+    display: none;
 }
-
 
 <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
   <div class="container-fluid">
