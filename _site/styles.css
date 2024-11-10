@@ -1,5 +1,7 @@
 /* css styles */
 
+
+
 /* Reduce padding for individual post items */
 .quarto-post {
     padding: 0px; /* Adjust this value to your preference */
@@ -8,10 +10,6 @@
 
 .thumbnail {
     display: none;
-}
-
-.listing-description {
-    display: none !important;
 }
 
 

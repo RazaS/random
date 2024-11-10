@@ -10,6 +10,7 @@ website:
         href: https://linkedin.com/sheharyar-raza-32310829/
       - icon: twitter
         href: https://twitter.com/razasn
+        
 format:
   html:
     theme: simplex
