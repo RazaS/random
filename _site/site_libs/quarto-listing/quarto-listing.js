@@ -76,6 +76,14 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
       setCategoryHash("");
     };
   }
+  
+    // Remove or hide all elements with the class 'listing-description'
+  const descriptionEls = document.querySelectorAll(".listing-description");
+  descriptionEls.forEach((el) => {
+    el.classList.remove("listing-description"); // Removes the class
+    // Or, to remove the entire element, uncomment the following line:
+    // el.remove();
+  });
 
   categoriesLoaded = true;
 });
@@ -241,3 +249,4 @@ function filterListingCategory(category) {
     }
   }
 }
+
