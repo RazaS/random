@@ -1,8 +1,8 @@
 ---
 title: "Films"
-author: "Harlow Malloc"
+author: "Raza"
 date: "2024-11-09"
-categories: [news, code, analysis]
+categories: [list,culture]
 image: "image.jpg"
 ---
 
