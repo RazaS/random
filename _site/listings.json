@@ -2,13 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/films/index.html"
+      "/posts/films/index.html",
+      "/posts/py_in_r/index.html"
     ]
   },
   {
     "listing": "/tmlinks.html",
     "items": [
-      "/posts/films/index.html"
+      "/posts/films/index.html",
+      "/posts/py_in_r/index.html"
     ]
   },
   {
