@@ -2,12 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/films/index.html",
       "/posts/test_post/index.html"
     ]
   },
   {
     "listing": "/tmlinks.html",
     "items": [
+      "/posts/films/index.html",
       "/posts/test_post/index.html"
     ]
   },

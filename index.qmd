@@ -1,5 +1,5 @@
 ---
-title: "random"
+title: "Home"
 listing:
   contents: posts
   sort: "date desc"
