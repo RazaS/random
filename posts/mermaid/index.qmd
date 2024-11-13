@@ -1,0 +1,31 @@
+---
+title: "Mermaid"
+author: "Raza"
+date: "2024-11-12"
+categories: [coding, R, causal inference]
+image: "image.jpg"
+---
+
+## Mermaid
+
+This is a way of creating graphs rather intuitively using text in a markdown format
+
+I personally prefer to use it in VSCode, however it is also supported in R via the [DiagrammeR](https://cran.r-project.org/web/packages/DiagrammeR/index.html) package
+
+You can find more examples [here](https://mermaid.js.org/syntax/examples.html)
+
+Here I give an example of an instrumental variable analysis DAG
+
+```{r}
+#| echo: true
+#| warning: false
+#| 
+library(DiagrammeR)
+
+mermaid("graph LR;
+    Predictor-->Outcome;
+    Instrument-->Predictor;
+    Confounder-.->Outcome;
+    Confounder-.->Predictor;", height = "200px")
+
+```

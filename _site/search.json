@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nNov 9, 2024\n\n\nFilms\n\n\nlist, culture\n\n\n13 min\n\n\n\n\nNov 9, 2024\n\n\nPython in R\n\n\ncoding\n\n\n1 min\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nNov 12, 2024\n\n\nMermaid\n\n\ncoding, R, causal inference\n\n\n1 min\n\n\n\n\nNov 9, 2024\n\n\nFilms\n\n\nlist, culture\n\n\n13 min\n\n\n\n\nNov 9, 2024\n\n\nPython in R\n\n\ncoding\n\n\n1 min\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -278,5 +278,19 @@
     "title": "Python in R",
     "section": "",
     "text": "library(reticulate)\n\nCreate a variable x in the Python session:\n\nx = [1, 2, 3]\n\nAccess the Python variable x in an R code chunk:\n\npy$x\n\n[1] 1 2 3\n\n\nCreate a new variable y in the Python session using R, and pass a data frame to y:\n\npy$y &lt;- head(cars)\n\nPrint the variable y in Python:\n\nprint(y)\n\n{'speed': [4.0, 4.0, 7.0, 7.0, 8.0, 9.0], 'dist': [2.0, 10.0, 4.0, 22.0, 16.0, 10.0]}"
+  },
+  {
+    "objectID": "posts/mermaid/index.html",
+    "href": "posts/mermaid/index.html",
+    "title": "Mermaid",
+    "section": "",
+    "text": "This is a way of creating graphs rather intuitively using text in a markdown format\nI personally prefer to use it in VSCode, however it is also supported in R via the DiagrammeR package\nYou can find more examples here\nHere I give an example of an instrumental variable analysis DAG\n\nlibrary(DiagrammeR)\n\nmermaid(\"graph LR;\n    Predictor--&gt;Outcome;\n    Instrument--&gt;Predictor;\n    Confounder-.-&gt;Outcome;\n    Confounder-.-&gt;Predictor;\", height = \"200px\")"
+  },
+  {
+    "objectID": "posts/mermaid/index.html#mermaid",
+    "href": "posts/mermaid/index.html#mermaid",
+    "title": "Mermaid",
+    "section": "",
+    "text": "This is a way of creating graphs rather intuitively using text in a markdown format\nI personally prefer to use it in VSCode, however it is also supported in R via the DiagrammeR package\nYou can find more examples here\nHere I give an example of an instrumental variable analysis DAG\n\nlibrary(DiagrammeR)\n\nmermaid(\"graph LR;\n    Predictor--&gt;Outcome;\n    Instrument--&gt;Predictor;\n    Confounder-.-&gt;Outcome;\n    Confounder-.-&gt;Predictor;\", height = \"200px\")"
   }
 ]
