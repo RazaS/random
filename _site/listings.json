@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/gerbich1/index.html",
       "/posts/mermaid/index.html",
       "/posts/films/index.html",
       "/posts/py_in_r/index.html"
@@ -10,6 +11,7 @@
   {
     "listing": "/tmlinks.html",
     "items": [
+      "/posts/gerbich1/index.html",
       "/posts/mermaid/index.html",
       "/posts/films/index.html",
       "/posts/py_in_r/index.html"

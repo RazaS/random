@@ -1,0 +1,39 @@
+---
+title: "Gerbich Quick Facts"
+author: "Raza"
+date: "2024-11-12"
+categories: [transfusion]
+---
+
+### **Summary of Gerbich Blood Group System**
+
+1.  **Location and Role of Gerbich Antigen**:
+
+    -   Found on glycoproteins GPC (glycophorin C) and GPD (glycophorin D), which form a complex with protein 4.1.
+    -   Provides mechanical stability to the red blood cell (RBC) membrane.
+
+    ![Gerbich antigens live on glycophorin c and d](gerbich.jpg)
+
+2.  **Genetics and Structural Variants**:
+
+    -   Controlled by the GYPC gene, which has four exons.
+    -   High homology between exons 2 and 3 increases the likelihood of crossover events.
+    -   Variants in the Gerbich system likely evolved as a selective response to *Plasmodium falciparum* in malaria-endemic areas.
+
+3.  **Phenotypes and Null Variants**:
+
+    -   The null phenotype, known as Leach or Gerbich null (Ge: -2,-3,-4), results from the deletion of exons 3 and 4.
+    -   Yus phenotype involves deletions in exon 2 and nearby introns; three different alleles are responsible for this type.
+
+4.  **Antigens and Antibody Formation**:
+
+    -   Main antigens: Ge2, Ge3, Ge4, and GEPL.
+    -   Individuals may develop antibodies to Gerbich antigens naturally, through pregnancy, or transfusion. These antibodies can be clinically significant.
+    -   Alloimmunization (developing antibodies after exposure to foreign Gerbich antigens) can lead to various outcomes. People with the rare Leach phenotype may form anti-Ge2, anti-Ge3, or anti-Ge4 antibodies.
+    -   Autoantibodies to Gerbich antigens, including clinically significant cases causing severe autoimmune hemolytic anemia (AIHA), are documented.
+
+5.  **Clinical Associations**:
+
+    -   Loss of GPC can lead to transient hereditary elliptocytosis, as the absence of GPC and GPD or protein 4.1 causes hereditary elliptocytosis.
+    -   Gerbich 2 can cause hemolysis, while Gerbich 3 can suppress erythropoiesis.
+    -   Gerbich variants Ge: -2, -3 are associated with reduced Kell blood group antigens.
