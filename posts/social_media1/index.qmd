@@ -1,0 +1,62 @@
+---
+title: "Social Media Bots"
+author: "Raza"
+date: "2024-11-12"
+categories: [coding, R, causal inference]
+image: "image.jpg"
+draft: true 
+---
+
+I have an untested yet highly plausible theory about why social media homogenizes thought.
+
+### A Visual Description of Social Media Algorithms
+
+Take Jack, who sees a photo of a cat on Instagram and decides to click it. He then falls down a rabbit hole of suggested posts...
+
+```{r}
+#| echo: false
+#| warning: false
+#| 
+library(DiagrammeR)
+
+mermaid("graph LR;
+    Jack-.->Cat;
+    Cat-->Dog;
+    Dog-->Car;
+    Car-->Boat;
+    Boat-->Beach;
+    Beach-->Beer..", height = "150px")
+
+```
+
+Next comes along John, who decides to click Dog. Instagram knows that the way it got the last guy to spend time on their website was to guide them through a particular sequence of images, thus tries the same sequence on John.
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+mermaid("graph LR;
+    Jack-.->Cat;
+    John-.->Dog;
+    Cat-->Dog;
+    Dog-->Car;
+    Car-->Boat;
+    Boat-->Beach;
+    Beach-->Beer..", height = "150px")
+
+```
+
+This is very roughly how many social media suggestion algorithms work. Using millions of clicks, they build large models (e.g. neural networks) where clicks are the reward which strengthens the algorithms in certain directions. Imagine Jack as the average of 20,000 users of his rough demographic category, and then imagine John as resembling that category enough to be subjected to a similar *successful* sequence to increase the chances that he too will spend more clicks.
+
+### Why this can be dangerous
+
+There most obvious downside of these algorithms is time spent. The slightly less obvious downside is that they favor content with broad appeal, at least in the sense that if you can effectively cluster people, the within-cluster behavior will be highly predictable (which can lead to polarization).
+
+The effect which most interests me is that these algorithms, especially when acting on children from a young age (and certainly on adults), will have a predictably homogenizing effect on their thought patterns.
+
+When you have thought A, and you are then prompted to think of B, C, D... so on, you are being exposed to a sequence of ideas. By reinforcing this particular thought-sequence, your brains neurons are being trained to fire a certain way by an powerful external neural network which itself is represents the average weights in a large model based on a large number of people. These thought sequences, codified into dispassionate model weights, optimized for clicks, and made ever more efficient by modern machine learning, have a propagandizing quality of a kind unrivaled by any media predecessors. Even if such models have no intrinsic political lean or mandate for conformity, their net effect is naturally going to reinforce certain average thought patterns and suppress original thought. If we all not only think the same thing, but think the same sequence of things, there's much less room left to be creative, or different, or idiosyncratic in any deep way.
+
+I don't think this necessarily kills human creativity--it just makes it different to escape thought patterns, which becomes particularly important when they might be harmful. Some of these patterns may well underlie the increased rates of depression and dissatisfaction among social media users.
+
+This general line of thinking, tenuous though it may be, has made me steer away from non-curated, highly algorithmic social media.
