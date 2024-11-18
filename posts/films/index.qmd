@@ -3,7 +3,6 @@ title: "Films"
 author: "Raza"
 date: "2024-11-09"
 categories: [list,culture]
-image: "image.jpg"
 ---
 
 <details>
@@ -23,6 +22,7 @@ image: "image.jpg"
 <summary>Seen, Awaiting Category</summary>
 
 -   Soylent Green
+-   Memoir of a Snail
 -   The Wild Robot
 -   Sing Sing
 -   Whiplash
