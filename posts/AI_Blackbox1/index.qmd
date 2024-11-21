@@ -1,0 +1,11 @@
+---
+title: "Black Box Intelligence"
+author: "Raza"
+date: "2024-11-12"
+categories: [AI, ML]
+draft: false 
+---
+
+"Neural Net behavior isn't explainable, they incorporate too many variables in complex ways but only their output can be understood"
+
+Replace 'neural net' with 'physician' and this sentence works just as well. Outside of few predictable responses, individual medical decision-making is largely a black box.
