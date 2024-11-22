@@ -9,7 +9,7 @@
 <meta name="author" content="Raza">
 <meta name="dcterms.date" content="2024-11-21">
 
-<title>Thinking Slow - Black Box Intelligence</title>
+<title>Thinking Slow - Randomly Testing Negative</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -115,10 +149,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Black Box Intelligence</h1>
+      <h1 class="title">Randomly Testing Negative</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">AI</div>
-                <div class="quarto-category">ML</div>
+                <div class="quarto-category">Transfusion</div>
               </div>
                   </div>
   </div>
@@ -155,8 +188,69 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>“Neural Net behavior isn’t explainable, they incorporate too many variables in complex ways but only their output can be understood”</p>
-<p>Replace ‘neural net’ with ‘physician’ and this sentence works just as well. Outside of few predictable responses, individual medical decision-making is largely a black box.</p>
+<p>Suppose you have a blood test with 10 parameters, e.g.&nbsp;the complete blood count</p>
+<p>What are the chances that you get a randomly abnormal result by chance?</p>
+<p>Consider that tests are defined as abnormal if they fall outside the 95% confidence interval.</p>
+<p>We can show this region of ‘abnormality’ on a normal distribution (light red below)</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This would seem to imply that for every 20 tests you run, you would expect at least one to be ‘abnormal’ by chance. However, this assumes those tests are completley independent.</p>
+<p>What if we test the scenario where they are not completely independent, but rather intercorrelated?</p>
+<p>We can model this by considering subsets of intercorrelated events. For ease of plotting, we will consider a 10 test scenario:</p>
+<ul>
+<li><p>Consider the following scenarios, where 0 of the tests were intercorrelated (independence), compared with the scenario where 2, 4, 6… or all 20 of the tests were intercorrelated.</p></li>
+<li><p>We can also check this against the degree of intercorrelation, and how that influences the probability of getting at least 1 ‘abnormal’ result by chance.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define constants</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fl">0.95</span> <span class="co"># Base probability</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="co"># Total number of events</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>correlated_subsets <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, n, <span class="at">by =</span> <span class="dv">2</span>) <span class="co"># Subsets of intercorrelated events</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>correlation_values <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">length.out =</span> <span class="dv">100</span>) <span class="co"># Correlation values from 0 to 100%</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to calculate probability for a subset of intercorrelated events</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>calculate_probability <span class="ot">&lt;-</span> <span class="cf">function</span>(subset, r) {</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (subset <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="fu">return</span>(p<span class="sc">^</span>n) <span class="co"># All events are independent</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    independent_events <span class="ot">&lt;-</span> n <span class="sc">-</span> subset</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    (<span class="dv">1</span><span class="sc">-</span>(p<span class="sc">^</span>subset <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">+</span> (subset <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">*</span> r)) <span class="sc">*</span> (p<span class="sc">^</span>independent_events))</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a grid of plots</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">3</span>)) <span class="co"># Adjust grid layout (3x3 for up to 9 subsets)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate plots for each subset</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (subset <span class="cf">in</span> correlated_subsets) {</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    probabilities <span class="ot">&lt;-</span> <span class="fu">sapply</span>(correlation_values, <span class="cf">function</span>(r) <span class="fu">min</span>(<span class="fu">calculate_probability</span>(subset, r), <span class="dv">1</span>))</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">plot</span>(</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        correlation_values <span class="sc">*</span> <span class="dv">100</span>, probabilities,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"blue"</span>, <span class="at">lwd =</span> <span class="dv">2</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="at">xlab =</span> <span class="st">"Correlation (%)"</span>, <span class="at">ylab =</span> <span class="st">"Probability"</span>,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">main =</span> <span class="fu">paste</span>(subset, <span class="st">"Correlated Tests"</span>),</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        <span class="at">xaxt =</span> <span class="st">"n"</span>, <span class="at">yaxt =</span> <span class="st">"n"</span>,</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>) <span class="co"># Force y-axis to start at 0 and end at 1</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">axis</span>(<span class="dv">1</span>, <span class="at">at =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">100</span>, <span class="at">by =</span> <span class="dv">10</span>), <span class="at">labels =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">100</span>, <span class="at">by =</span> <span class="dv">10</span>)) <span class="co"># X-axis ticks</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="fu">axis</span>(<span class="dv">2</span>, <span class="at">at =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.1</span>), <span class="at">labels =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.1</span>))   <span class="co"># Y-axis ticks</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">abline</span>(<span class="at">h =</span> <span class="dv">1</span>, <span class="at">col =</span> <span class="st">"red"</span>, <span class="at">lty =</span> <span class="dv">2</span>) <span class="co"># 100% cap line</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Here we see that although for 10 independent tests, the probability of a randomly abnormal result is indeed around 60%, this probability drops very quickly either correlation increases, or the number of correlated events increases. For instance, if 2 of the tests are 20% intercorrelated, the chances of a randomly abnormal result out of 10 drops to about 30%, and if 4 of the tests were intercorrelated at 20%, this probability essentially drops to 0.</p>
 
 
 

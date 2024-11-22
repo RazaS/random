@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nNov 21, 2024\n\n\nBlack Box Intelligence\n\n\nAI, ML\n\n\n1 min\n\n\n\n\nNov 12, 2024\n\n\nGerbich Quick Facts\n\n\ntransfusion\n\n\n2 min\n\n\n\n\nNov 12, 2024\n\n\nMermaid\n\n\ncoding, R, causal inference\n\n\n1 min\n\n\n\n\nNov 9, 2024\n\n\nFilms\n\n\nlist, culture\n\n\n13 min\n\n\n\n\nNov 9, 2024\n\n\nPython in R\n\n\ncoding\n\n\n1 min\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nNov 12, 2024\n\n\nGerbich Quick Facts\n\n\ntransfusion\n\n\n2 min\n\n\n\n\nNov 12, 2024\n\n\nMermaid\n\n\ncoding, R, causal inference\n\n\n1 min\n\n\n\n\nNov 9, 2024\n\n\nFilms\n\n\nlist, culture\n\n\n13 min\n\n\n\n\nNov 9, 2024\n\n\nPython in R\n\n\ncoding\n\n\n1 min\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -299,12 +299,5 @@
     "title": "Gerbich Quick Facts",
     "section": "",
     "text": "Summary of Gerbich Blood Group System\n\nLocation and Role of Gerbich Antigen:\n\nFound on glycoproteins GPC (glycophorin C) and GPD (glycophorin D), which form a complex with protein 4.1.\nProvides mechanical stability to the red blood cell (RBC) membrane.\n\n\n\n\nGerbich antigens live on glycophorin c and d\n\n\nGenetics and Structural Variants:\n\nControlled by the GYPC gene, which has four exons.\nHigh homology between exons 2 and 3 increases the likelihood of crossover events.\nVariants in the Gerbich system likely evolved as a selective response to Plasmodium falciparum in malaria-endemic areas.\n\nPhenotypes and Null Variants:\n\nThe null phenotype, known as Leach or Gerbich null (Ge: -2,-3,-4), results from the deletion of exons 3 and 4.\nYus phenotype involves deletions in exon 2 and nearby introns; three different alleles are responsible for this type.\n\nAntigens and Antibody Formation:\n\nMain antigens: Ge2, Ge3, Ge4, and GEPL.\nIndividuals may develop antibodies to Gerbich antigens naturally, through pregnancy, or transfusion. These antibodies can be clinically significant.\nAlloimmunization (developing antibodies after exposure to foreign Gerbich antigens) can lead to various outcomes. People with the rare Leach phenotype may form anti-Ge2, anti-Ge3, or anti-Ge4 antibodies.\nAutoantibodies to Gerbich antigens, including clinically significant cases causing severe autoimmune hemolytic anemia (AIHA), are documented.\n\nClinical Associations:\n\nLoss of GPC can lead to transient hereditary elliptocytosis, as the absence of GPC and GPD or protein 4.1 causes hereditary elliptocytosis.\nGerbich 2 can cause hemolysis, while Gerbich 3 can suppress erythropoiesis.\nGerbich variants Ge: -2, -3 are associated with reduced Kell blood group antigens."
-  },
-  {
-    "objectID": "posts/AI_Blackbox1/index.html",
-    "href": "posts/AI_Blackbox1/index.html",
-    "title": "Black Box Intelligence",
-    "section": "",
-    "text": "“Neural Net behavior isn’t explainable, they incorporate too many variables in complex ways but only their output can be understood”\nReplace ‘neural net’ with ‘physician’ and this sentence works just as well. Outside of few predictable responses, individual medical decision-making is largely a black box."
   }
 ]
