@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Raza">
+<meta name="dcterms.date" content="2024-11-09">
 
-<title>Thinking Slow - Transfusion Links</title>
+<title>Thinking Slow - Cold-Stored Platelet Simulation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -128,17 +99,17 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Thinking Slow</span>
     </a>
   </div>
@@ -149,7 +120,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,342 +143,161 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Transfusion Links</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Cold-Stored Platelet Simulation</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">transfusion</div>
+                <div class="quarto-category">simulation</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Raza </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 9, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="causal inference">causal inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="coding">coding <span class="quarto-category-count">(2)</span></div><div class="category" data-category="culture">culture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="list">list <span class="quarto-category-count">(1)</span></div><div class="category" data-category="simulation">simulation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transfusion">transfusion <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="https://www.isbtweb.org/isbt-working-parties/rcibgt/blood-group-allele-tables.html#blood%20group%20allele%20tables">ISBT Blood Group Tables</a></li>
-<li><a href="https://professionaleducation.blood.ca/en/transfusion/clinical-guide-transfusion">CBS Clinical Guide to Transfusion</a></li>
-<li><a href="https://learn.transfusion.com.au/login/index.php">Australia Learn Transfusion</a></li>
-<li><a href="https://docs.google.com/spreadsheets/d/1lHiN9ylgETSnil9SohbUYq2DmVm80vS9tY5A3IGoBFA/edit?usp=sharing">Transfusion Library</a></li>
-</ul>
+<iframe height="400" width="100%" frameborder="no" src="https://razas3.shinyapps.io/CSP_Sim_R/">
+</iframe>
+<section id="full-code-here" class="level3">
+<h3 class="anchored" data-anchor-id="full-code-here">Full Code Here:</h3>
+<p>library(shiny)</p>
 </section>
-<section id="canadian-standards" class="level2">
-<h2 class="anchored" data-anchor-id="canadian-standards">Canadian Standards</h2>
-<ul>
-<li><a href="http://nacblood.ca/">National Advisory Committee on Blood</a></li>
-<li><a href="https://transfusionontario.org/">ORBCon</a></li>
-</ul>
+<section id="define-ui" class="level1">
+<h1>Define UI</h1>
+<p>ui &lt;- fluidPage( titlePanel(“Hospital Inventory Simulation”),</p>
+<p># Preamble section fluidRow( column(12, h3(“Simulation Overview”), p(“This is a simple simulation which models daily average inventory over 365 days for 100 hospitals. Fifty hospitals exclusively receive Cold-Stored Platelets (CSP), and the other fifty exclusively receive Room-Temperature Platelets (RT).”), p(“All patients at all hospitals are identical. However, each patient has a certain daily probability of needing a platelet (defined by a range of minimum to maximum usage probabilities).”), p(“The resulting histograms display the average daily inventory (over a year) for each of the 50 hospitals. This average daily inventory is what we aim to protect and maximize (to an extent).”), strong(“Variables you can tweak:”), tags<span class="math inline">\(ul(
+             tags\)</span>li(“Number of hospitals per condition (default is 50)”), tags<span class="math inline">\(li("Units each hospital receives daily (constant, default is 1)"),
+             tags\)</span>li(“Expiry age for CSP and RT platelets (default: 14 days for CSP and 6 days for RT)”), tags$li(“"Cool down period" for CSP and RT platelets: how long patients are ineligible after transfusion (default: 1 day for CSP, 6 days for RT)”) ), p(“One important observation: as the daily probability of patients using a platelet decreases, the inventory levels begin to favor CSP over RT platelets!”) ) ),</p>
+<p>sidebarLayout( sidebarPanel( sliderInput(“n_patients”, “Number of Patients per Hospital:”, min = 5, max = 50, value = 10, step = 1), sliderInput(“unitsper_day”, “Units Received per Day:”, min = 1, max = 5, value = 1, step = 1), sliderInput(“expiry_A”, “Expiry Days for Cold-Stored Platelets:”, min = 7, max = 30, value = 14, step = 1), sliderInput(“cooldown_A”, “Cooldown Days for Cold-Stored Platelets:”, min = 0, max = 10, value = 1, step = 1), sliderInput(“cooldown_B”, “Cooldown Days for Room-Temp Platelets:”, min = 0, max = 10, value = 6, step = 1), sliderInput(“min_prob”, “Minimum Usage Probability:”, min = 0.01, max = 0.20, value = 0.10, step = 0.01), sliderInput(“max_prob”, “Maximum Usage Probability:”, min = 0.20, max = 0.50, value = 0.30, step = 0.01) ),</p>
+<pre><code>mainPanel(
+  plotOutput("histogram_CSP"),
+  plotOutput("histogram_RT")
+)</code></pre>
+<p>) )</p>
 </section>
-<section id="calculators-and-tools" class="level2">
-<h2 class="anchored" data-anchor-id="calculators-and-tools">Calculators and Tools</h2>
-<ul>
-<li><a href="https://github.com/users/RazaS/projects/3/views/3">Portfolio Progress</a></li>
-<li><a href="https://razas2.shinyapps.io/Transfusion_Library/">Transfusion Library (searchable)</a></li>
-<li><a href="https://razas2.shinyapps.io/AntigenExcluder/">Antigen Excluder</a></li>
-<li><a href="https://razas.shinyapps.io/TRX_Classifier/">Transfusion Reaction Classifier</a></li>
-<li><a href="https://razas.shinyapps.io/Donor_Prediction/">RBC Alloimmunization Prediction Tool (RAPID)</a></li>
-<li><a href="https://razas2.shinyapps.io/RAPID_Ethnicity_Predictor">Antigen Ethnicity Predictor</a></li>
-<li><a href="https://ivig.transfusionontario.org/?b=sp&amp;sp=1">Heme Calculators for IVIG/BMI</a></li>
-<li><a href="Anti-Xa-Heparin-Nomogram.pdf">Anti-Xa Heparin Nomogram UHN</a></li>
-<li><a href="Argatroban-2019-Nomogram.pdf">Argatroban Nomogram UHN</a></li>
-</ul>
-</section>
-<section id="remote-access-links" class="level2">
-<h2 class="anchored" data-anchor-id="remote-access-links">Remote Access Links</h2>
-<ul>
-<li><a href="https://citrix.sinaihealthsystem.ca/vpn/index.html">Sinai Remote Access</a></li>
-<li><a href="https://mydigitalapps.uhn.ca/">UHN Remote Access</a></li>
-<li><a href="https://intranet.remote.uhn.ca/vpn/index.html">UHN Intranet</a></li>
-<li><a href="https://login.microsoftonline.com/login.srf">UHN Email Login</a></li>
-<li><a href="https://vdi.sunnybrook.ca/">Sunnybrook Remote Access</a></li>
-<li><a href="https://citrix.unityhealth.to/logon/LogonPoint/tmindex.html">St Michael’s Remote Access</a></li>
-<li><a href="https://fortiportal.unityhealth.to/remote/login?lang=en">St Michael’s Email Login</a></li>
-</ul>
-</section>
-<section id="apheresis" class="level2">
-<h2 class="anchored" data-anchor-id="apheresis">Apheresis</h2>
-<ul>
-<li><a href="https://www.ammtac.org/docs/articulos/ASFA%202019%20guidelines.pdf">ASFA Apheresis Guidelines</a></li>
-</ul>
-</section>
-<section id="guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="guidelines">Guidelines</h2>
-<ul>
-<li><a href="https://onlinelibrary-wiley-com.myaccess.library.utoronto.ca/doi/epdf/10.1002/jca.21705">PLEX Guidelines 2019</a></li>
-<li><a href="https://thrombosiscanada.ca/clinicalguides/">Thrombosis Canada</a></li>
-<li><a href="https://www.nccn.org/guidelines/category_1">NCCN Guidelines</a></li>
-<li><a href="https://b-s-h.org.uk/guidelines/">BSH Guidelines</a></li>
-<li><a href="https://ashpublications.org/blood/search-results?fl_SiteID=1000001&amp;page=1&amp;f_Subjects=How%20I%20Treat">How I Treat Series</a></li>
-<li><a href="https://plus.mcmaster.ca/ClotPlus/Articles/EvidenceSummaries">McMaster CLOT Summaries</a></li>
-</ul>
-</section>
-<section id="digital-tools" class="level2">
-<h2 class="anchored" data-anchor-id="digital-tools">Digital Tools</h2>
-<ul>
-<li><a href="https://pitunnel.com/">Raspberry Pi: PiTunnel for GUI and RPi Tunnel</a></li>
-<li><a href="https://chat.openai.com/">ChatGPT Login</a></li>
-</ul>
-</section>
-<section id="professional-associations" class="level2">
-<h2 class="anchored" data-anchor-id="professional-associations">Professional Associations</h2>
-<ul>
-<li><a href="https://www.aabb.org/">AABB</a></li>
-<li><a href="https://www.apheresis.org/">ASFA</a></li>
-<li><a href="https://www.transfusion.ca/Home">CSTM</a></li>
-<li><a href="https://www.blood.ca/en">CBS</a></li>
-<li><a href="https://www.ictmg.org/">ICTMG</a></li>
-</ul>
-</section>
-<section id="podcastsblogs" class="level2">
-<h2 class="anchored" data-anchor-id="podcastsblogs">Podcasts/Blogs</h2>
-<ul>
-<li><a href="http://bbguy.org/education/">Bloodbank Guy</a></li>
-<li><a href="https://www.transfusion.ca/Resources/CSTM-Blog">CSTM Blog</a></li>
-<li><a href="https://www.blood.ca/en/hospitals/bloodnotes">Bloodnotes CBS</a></li>
-</ul>
-</section>
-<section id="forms" class="level2">
-<h2 class="anchored" data-anchor-id="forms">Forms</h2>
-<ul>
-<li><a href="https://ontariorheum.ca/images/uploads/content_documents/Ontario-MOHLTC-IVIG-Request-Form_(2).pdf">IVIG Request Form (Ontario)</a></li>
-<li><a href="http://www.forms.ssb.gov.on.ca/mbs/ssb/forms/ssbforms.nsf/FormDetail?OpenForm&amp;ACT=RDR&amp;TAB=PROFILE&amp;ENV=WWE&amp;NO=014-4422-84">Outpatient Lab Requisition Form (Ontario)</a></li>
-<li><a href="s_raza/rx.docx">Generic UHN Prescription</a></li>
-<li><a href="s_raza/uhnnote.docx">UHN Prog</a></li>
-</ul>
-</section>
-<section id="note-templates" class="level2">
-<h2 class="anchored" data-anchor-id="note-templates">Note Templates</h2>
-<ul>
-<li><a href="s_raza/consultnote.html">General Consult Note</a></li>
-<li><a href="s_raza/thrombosisnote.html">Thrombosis Note</a></li>
-<li><a href="s_raza/prognote.html">Progress Note</a></li>
-<li><a href="s_raza/notewriter.html">Note Writer (Beta)</a></li>
-</ul>
-</section>
-<section id="schedules-and-files" class="level2">
-<h2 class="anchored" data-anchor-id="schedules-and-files">Schedules and Files</h2>
-<ul>
-<li><a href="#">Rotation Schedule</a></li>
-</ul>
-</section>
-<section id="billing" class="level2">
-<h2 class="anchored" data-anchor-id="billing">Billing</h2>
-<ul>
-<li><a href="s_raza/billing.pdf">Billing Hotlinks</a></li>
-<li><a href="s_raza/GIMOnCallBilling.docx">On-Call Billing Sheet</a></li>
-<li><a href="s_raza/billing.pdf">Cheatsheet GIM</a></li>
-<li><a href="s_raza/gim-temp.pdf">GIM Billing Card</a></li>
-<li><a href="s_raza/billing.pdf">Cheatsheet Heme</a></li>
-<li><a href="s_raza/OHIP_schedule-min.pdf">OHIP Billing (Heme/GIM/Premium)</a></li>
-<li><a href="s_raza/ohip_premiums-min.pdf">OHIP Premiums</a></li>
-<li><a href="s_raza/otn_codes-min.pdf">OHIP Telemedicine</a></li>
-</ul>
+<section id="define-server" class="level1">
+<h1>Define Server</h1>
+<p>server &lt;- function(input, output) {</p>
+<p>simulate_hospital &lt;- function(n_patients, n_days, expiry_days, cooldown_days, units_per_day, min_prob, max_prob) { usage_probs &lt;- runif(n_patients, min = min_prob, max = max_prob) next_available_day &lt;- rep(1, n_patients) inventory &lt;- integer(0) daily_inventories &lt;- numeric(n_days)</p>
+<pre><code>for(day in seq_len(n_days)) {
+  if (length(inventory) &gt; 0) {
+    inventory &lt;- inventory[inventory &gt; day]
+  }
+  
+  new_units_expiry &lt;- rep(day + expiry_days, units_per_day)
+  inventory &lt;- c(inventory, new_units_expiry)
+  
+  eligible_patients &lt;- which(next_available_day &lt;= day)
+  if (length(eligible_patients) &gt; 0 &amp;&amp; length(inventory) &gt; 0) {
+    draws &lt;- runif(length(eligible_patients))
+    used &lt;- draws &lt; usage_probs[eligible_patients]
+    
+    n_demands &lt;- sum(used)
+    n_supply &lt;- length(inventory)
+    n_used &lt;- min(n_demands, n_supply)
+    
+    if(n_used &gt; 0) {
+      user_indices &lt;- eligible_patients[used]
+      if (n_demands &gt; n_supply) {
+        user_indices &lt;- sample(user_indices, n_used)
+      }
+      
+      for(pat in user_indices) {
+        next_available_day[pat] &lt;- day + cooldown_days + 1
+      }
+      
+      inventory &lt;- inventory[seq_len(length(inventory) - n_used)]
+    }
+  }
+  daily_inventories[day] &lt;- length(inventory)
+}
+mean(daily_inventories)</code></pre>
+<p>}</p>
+<p>output<span class="math inline">\(histogram_CSP &lt;- renderPlot({
+    avg_inventory_CSP &lt;- replicate(50, simulate_hospital(
+      n_patients = input\)</span>n_patients, n_days = 365, expiry_days = input<span class="math inline">\(expiry_A,
+      cooldown_days = input\)</span>cooldown_A, units_per_day = input<span class="math inline">\(unitsper_day,
+      min_prob = input\)</span>min_prob, max_prob = input$max_prob ))</p>
+<pre><code>avg_inventory_RT &lt;- replicate(50, simulate_hospital(
+  n_patients = input$n_patients,
+  n_days = 365,
+  expiry_days = 6, # Expiry for Room-Temp Platelets is fixed at 6
+  cooldown_days = input$cooldown_B,
+  units_per_day = input$unitsper_day,
+  min_prob = input$min_prob,
+  max_prob = input$max_prob
+))
 
+x_upper &lt;- max(avg_inventory_CSP, avg_inventory_RT)
+
+hist(avg_inventory_CSP, 
+     main = "Average Daily Inventory for Cold-Stored Platelets (CSP)",
+     xlab = "Average Inventory",
+     xlim = c(0, x_upper),
+     col = "skyblue",
+     border = "white")</code></pre>
+<p>})</p>
+<p>output<span class="math inline">\(histogram_RT &lt;- renderPlot({
+    avg_inventory_CSP &lt;- replicate(50, simulate_hospital(
+      n_patients = input\)</span>n_patients, n_days = 365, expiry_days = input<span class="math inline">\(expiry_A,
+      cooldown_days = input\)</span>cooldown_A, units_per_day = input<span class="math inline">\(unitsper_day,
+      min_prob = input\)</span>min_prob, max_prob = input$max_prob ))</p>
+<pre><code>avg_inventory_RT &lt;- replicate(50, simulate_hospital(
+  n_patients = input$n_patients,
+  n_days = 365,
+  expiry_days = 6, # Expiry for Room-Temp Platelets is fixed at 6
+  cooldown_days = input$cooldown_B,
+  units_per_day = input$unitsper_day,
+  min_prob = input$min_prob,
+  max_prob = input$max_prob
+))
+
+x_upper &lt;- max(avg_inventory_CSP, avg_inventory_RT)
+
+hist(avg_inventory_RT, 
+     main = "Average Daily Inventory for Room-Temp Platelets (RT)",
+     xlab = "Average Inventory",
+     xlim = c(0, x_upper),
+     col = "tomato",
+     border = "white")</code></pre>
+<p>}) }</p>
+</section>
+<section id="run-the-app" class="level1">
+<h1>Run the app</h1>
+<p>shinyApp(ui = ui, server = server)```</p>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="transfusion" data-listing-date-sort="1731387600000" data-listing-file-modified-sort="1731463648842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="339">
-<div class="thumbnail">
-<p><a href="./posts/gerbich1/index.html" class="no-external"></a></p><a href="./posts/gerbich1/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/gerbich1/gerbich.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/gerbich1/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/gerbich1/index.html" class="no-external">Gerbich Quick Facts</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/gerbich1/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('transfusion'); return false;">
-transfusion
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/gerbich1/index.html" class="no-external"><strong>Location and Role of Gerbich Antigen</strong>:</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/gerbich1/index.html" class="no-external">
-<div class="listing-date">
-Nov 12, 2024
-</div>
-<div class="listing-author">
-Raza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="coding,R,causal inference" data-listing-date-sort="1731387600000" data-listing-file-modified-sort="1731461594906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<div class="thumbnail">
-<p><a href="./posts/mermaid/index.html" class="no-external"></a></p><a href="./posts/mermaid/index.html" class="no-external">
-<p><img src="./posts/mermaid/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/mermaid/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/mermaid/index.html" class="no-external">Mermaid</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/mermaid/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
-coding
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('causal inference'); return false;">
-causal inference
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/mermaid/index.html" class="no-external">This is a way of creating graphs rather intuitively using text in a markdown format</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/mermaid/index.html" class="no-external">
-<div class="listing-date">
-Nov 12, 2024
-</div>
-<div class="listing-author">
-Raza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="list,culture" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731896055313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2563">
-<div class="thumbnail">
-<p><a href="./posts/films/index.html" class="no-external"></a></p><a href="./posts/films/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/films/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/films/index.html" class="no-external">Films</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/films/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('list'); return false;">
-list
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('culture'); return false;">
-culture
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/films/index.html" class="no-external"><br></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/films/index.html" class="no-external">
-<div class="listing-date">
-Nov 9, 2024
-</div>
-<div class="listing-author">
-Raza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="transfusion,simulation" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1736816757253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1529">
-<div class="thumbnail">
-<p><a href="./posts/CSP_Sim/index.html" class="no-external"></a></p><a href="./posts/CSP_Sim/index.html" class="no-external">
-<p><img src="./posts/CSP_Sim/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/CSP_Sim/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/CSP_Sim/index.html" class="no-external">Cold-Stored Platelet Simulation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/CSP_Sim/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('transfusion'); return false;">
-transfusion
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('simulation'); return false;">
-simulation
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/CSP_Sim/index.html" class="no-external">library(shiny)</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/CSP_Sim/index.html" class="no-external">
-<div class="listing-date">
-Nov 9, 2024
-</div>
-<div class="listing-author">
-Raza
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="coding" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731225195658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
-<div class="thumbnail">
-<p><a href="./posts/py_in_r/index.html" class="no-external"></a></p><a href="./posts/py_in_r/index.html" class="no-external">
-<p><img src="./posts/py_in_r/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/py_in_r/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/py_in_r/index.html" class="no-external">Python in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/py_in_r/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
-coding
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/py_in_r/index.html" class="no-external">Create a variable <code>x</code> in the Python session:</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/py_in_r/index.html" class="no-external">
-<div class="listing-date">
-Nov 9, 2024
-</div>
-<div class="listing-author">
-Raza
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

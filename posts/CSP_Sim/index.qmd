@@ -1,0 +1,173 @@
+---
+title: "Cold-Stored Platelet Simulation"
+author: "Raza"
+date: "2024-11-09"
+categories: [transfusion, simulation]
+image: "image.jpg"
+---
+
+<iframe height="400" width="100%" frameborder="no" src="https://razas3.shinyapps.io/CSP_Sim_R/">
+
+</iframe>
+
+### Full Code Here:
+
+```{r, setup}
+library(shiny)
+
+# Define UI
+ui <- fluidPage(
+  titlePanel("Hospital Inventory Simulation"),
+  
+  # Preamble section
+  fluidRow(
+    column(12,
+           h3("Simulation Overview"),
+           p("This is a simple simulation which models daily average inventory over 365 days for 100 hospitals. Fifty hospitals exclusively receive Cold-Stored Platelets (CSP), and the other fifty exclusively receive Room-Temperature Platelets (RT)."),
+           p("All patients at all hospitals are identical. However, each patient has a certain daily probability of needing a platelet (defined by a range of minimum to maximum usage probabilities)."),
+           p("The resulting histograms display the average daily inventory (over a year) for each of the 50 hospitals. This average daily inventory is what we aim to protect and maximize (to an extent)."),
+           strong("Variables you can tweak:"),
+           tags$ul(
+             tags$li("Number of hospitals per condition (default is 50)"),
+             tags$li("Units each hospital receives daily (constant, default is 1)"),
+             tags$li("Expiry age for CSP and RT platelets (default: 14 days for CSP and 6 days for RT)"),
+             tags$li("\"Cool down period\" for CSP and RT platelets: how long patients are ineligible after transfusion (default: 1 day for CSP, 6 days for RT)")
+           ),
+           p("One important observation: as the daily probability of patients using a platelet decreases, the inventory levels begin to favor CSP over RT platelets!")
+    )
+  ),
+  
+  sidebarLayout(
+    sidebarPanel(
+      sliderInput("n_patients", "Number of Patients per Hospital:", 
+                  min = 5, max = 50, value = 10, step = 1),
+      sliderInput("unitsper_day", "Units Received per Day:", 
+                  min = 1, max = 5, value = 1, step = 1),
+      sliderInput("expiry_A", "Expiry Days for Cold-Stored Platelets:", 
+                  min = 7, max = 30, value = 14, step = 1),
+      sliderInput("cooldown_A", "Cooldown Days for Cold-Stored Platelets:", 
+                  min = 0, max = 10, value = 1, step = 1),
+      sliderInput("cooldown_B", "Cooldown Days for Room-Temp Platelets:", 
+                  min = 0, max = 10, value = 6, step = 1),
+      sliderInput("min_prob", "Minimum Usage Probability:", 
+                  min = 0.01, max = 0.20, value = 0.10, step = 0.01),
+      sliderInput("max_prob", "Maximum Usage Probability:", 
+                  min = 0.20, max = 0.50, value = 0.30, step = 0.01)
+    ),
+    
+    mainPanel(
+      plotOutput("histogram_CSP"),
+      plotOutput("histogram_RT")
+    )
+  )
+)
+
+# Define Server
+server <- function(input, output) {
+  
+  simulate_hospital <- function(n_patients, n_days, expiry_days, cooldown_days, units_per_day, min_prob, max_prob) {
+    usage_probs <- runif(n_patients, min = min_prob, max = max_prob)
+    next_available_day <- rep(1, n_patients)
+    inventory <- integer(0)
+    daily_inventories <- numeric(n_days)
+    
+    for(day in seq_len(n_days)) {
+      if (length(inventory) > 0) {
+        inventory <- inventory[inventory > day]
+      }
+      
+      new_units_expiry <- rep(day + expiry_days, units_per_day)
+      inventory <- c(inventory, new_units_expiry)
+      
+      eligible_patients <- which(next_available_day <= day)
+      if (length(eligible_patients) > 0 && length(inventory) > 0) {
+        draws <- runif(length(eligible_patients))
+        used <- draws < usage_probs[eligible_patients]
+        
+        n_demands <- sum(used)
+        n_supply <- length(inventory)
+        n_used <- min(n_demands, n_supply)
+        
+        if(n_used > 0) {
+          user_indices <- eligible_patients[used]
+          if (n_demands > n_supply) {
+            user_indices <- sample(user_indices, n_used)
+          }
+          
+          for(pat in user_indices) {
+            next_available_day[pat] <- day + cooldown_days + 1
+          }
+          
+          inventory <- inventory[seq_len(length(inventory) - n_used)]
+        }
+      }
+      daily_inventories[day] <- length(inventory)
+    }
+    mean(daily_inventories)
+  }
+  
+  output$histogram_CSP <- renderPlot({
+    avg_inventory_CSP <- replicate(50, simulate_hospital(
+      n_patients = input$n_patients,
+      n_days = 365,
+      expiry_days = input$expiry_A,
+      cooldown_days = input$cooldown_A,
+      units_per_day = input$unitsper_day,
+      min_prob = input$min_prob,
+      max_prob = input$max_prob
+    ))
+    
+    avg_inventory_RT <- replicate(50, simulate_hospital(
+      n_patients = input$n_patients,
+      n_days = 365,
+      expiry_days = 6, # Expiry for Room-Temp Platelets is fixed at 6
+      cooldown_days = input$cooldown_B,
+      units_per_day = input$unitsper_day,
+      min_prob = input$min_prob,
+      max_prob = input$max_prob
+    ))
+    
+    x_upper <- max(avg_inventory_CSP, avg_inventory_RT)
+    
+    hist(avg_inventory_CSP, 
+         main = "Average Daily Inventory for Cold-Stored Platelets (CSP)",
+         xlab = "Average Inventory",
+         xlim = c(0, x_upper),
+         col = "skyblue",
+         border = "white")
+  })
+  
+  output$histogram_RT <- renderPlot({
+    avg_inventory_CSP <- replicate(50, simulate_hospital(
+      n_patients = input$n_patients,
+      n_days = 365,
+      expiry_days = input$expiry_A,
+      cooldown_days = input$cooldown_A,
+      units_per_day = input$unitsper_day,
+      min_prob = input$min_prob,
+      max_prob = input$max_prob
+    ))
+    
+    avg_inventory_RT <- replicate(50, simulate_hospital(
+      n_patients = input$n_patients,
+      n_days = 365,
+      expiry_days = 6, # Expiry for Room-Temp Platelets is fixed at 6
+      cooldown_days = input$cooldown_B,
+      units_per_day = input$unitsper_day,
+      min_prob = input$min_prob,
+      max_prob = input$max_prob
+    ))
+    
+    x_upper <- max(avg_inventory_CSP, avg_inventory_RT)
+    
+    hist(avg_inventory_RT, 
+         main = "Average Daily Inventory for Room-Temp Platelets (RT)",
+         xlab = "Average Inventory",
+         xlim = c(0, x_upper),
+         col = "tomato",
+         border = "white")
+  })
+}
+
+# Run the app
+shinyApp(ui = ui, server = server)```
