@@ -1,0 +1,27 @@
+---
+title: "Antigen Loss"
+author: "Raza"
+date: "2024-9-4"
+categories: [transfusion, FOTD]
+---
+
+## Antigen Loss Phenomena
+
+Did you know that certain antigens can be lost from red cell surfaces?
+
+Here are examples of antigen loss phenomena:
+
+1.  **Anti-CD38 Treatment**\
+    Treatment with anti-CD38 drugs, such as daratumumab, can cause the loss of CD38 on patient cells over time.
+
+2.  **Lewis Antigen Loss During Pregnancy**\
+    Lewis a and b antigens can be transiently lost during pregnancy, sometimes leading to the formation of anti-Lewis a/b antibodies.
+
+3.  **JMH Antigen Loss in Elderly Patients**\
+    Anti-JMH can be lost with advanced age, resulting in the formation of anti-JMH in some elderly patients.
+
+4.  **Antigen Loss with Auto- and Allo-antibodies**\
+    Antigen loss in the presence of an auto-antibody, and less commonly, allo-antibody, has been described with many blood groups (e.g., Kell).
+
+For a more detailed discussion of this phenomenon, refer to:\
+[PubMed Article: Antigen Loss Phenomena](https://pubmed.ncbi.nlm.nih.gov/19539874/)

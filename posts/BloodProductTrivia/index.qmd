@@ -1,0 +1,49 @@
+---
+title: "Blood Product Trivia 1"
+author: "Raza"
+date: "2024-12-11"
+categories: [transfusion, FOTD]
+---
+
+# Know Your Blood Products!
+
+Understanding the technical specifications of blood products is essential for operating blood banks effectively. Here's a quick guide:
+
+## Leukoreduced Products
+
+-   **Definition:** To label a platelet (Plt) or red blood cell (RBC) component as *leukoreduced*, it must contain **\< 5 x 10\^6 WBCs**, achieved through a filtration process.
+
+## Irradiated Components
+
+-   **Radiation Requirements:**
+    -   Must receive **25 grays of radiation** at the center and **\>15 grays** anywhere in the container.\
+-   **Shelf Life After Irradiation (Canada):**
+    -   Maximum: **28 days post-irradiation** (but not exceeding the overall maximum shelf life of 42 days).\
+    -   Example:
+        -   If irradiated on **Day+5** post-collection, expiry = **Day 33**.\
+        -   If irradiated after **Day+14**, the expiry will remain **Day 42** (overall max shelf life).
+
+## Fresh Frozen Plasma (FFP)
+
+-   **Definition:** Plasma must be frozen within **8 hours** of collection to be considered *fresh frozen plasma*.\
+-   Plasma frozen within **24 hours** does not qualify as FFP.\
+-   **Liquid Plasma:** A formulation of plasma that is **never frozen**.
+
+## Leukoreduced Whole Blood
+
+-   **Storage:**
+    -   Stored at **1–6°C** without agitation.\
+    -   Shelf life: **21 days**.\
+-   **Post-Puncture Use:**
+    -   If stored **above 6°C**, must be transfused within **4 hours**.\
+    -   If stored at **1–6°C**, must be transfused within **24 hours**.\
+-   **Future Efforts:** Research is ongoing to extend the storage period.
+
+------------------------------------------------------------------------
+
+### Additional Resources
+
+These details are operationally critical for blood banks. Learn more here:\
+[FAQ: Whole Blood Leukocytes Reduced (LRWB) - Canadian Blood Services](https://professionaleducation.blood.ca/en/transfusion/publications/faq-whole-blood-leukocytes-reduced-lrwb-canadian-blood-services)
+
+For more comprehensive guidance, refer to trusted sources like the CBS Professional Education website and **AABB Standards**. It's worth keeping a copy and becoming familiar with these resources.

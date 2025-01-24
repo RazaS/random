@@ -1,0 +1,63 @@
+---
+title: "Polyagglutination"
+author: "Raza"
+date: "2024-9-4"
+categories: [transfusion, FOTD]
+---
+
+## Polyagglutination
+
+-   **Definition:** Polyagglutination occurs when crypt antigens on red cells are exposed, leading to spontaneous agglutination.\
+-   **Mechanism:**
+    -   Crypt antigens are red cell surface glycoproteins to which everyone makes naturally occurring **IgM antibodies**.
+    -   Normally, crypt antigens are unexposed and non-reactive.
+    -   When crypt antigens are exposed (via genetic anomalies or RBC surface modifications), universal anti-crypt antigen antibodies bind to them, causing agglutination.
+-   **Key Feature:** For a patient with exposed crypt antigens, **any serum** (other than the patient’s own) will cause the patient’s RBCs to agglutinate.
+-   **Summary:** Polyagglutination is a **problem with the patient’s RBCs**.
+
+------------------------------------------------------------------------
+
+## Panagglutination
+
+-   **Definition:** Panagglutination occurs when an **autoantibody in the patient’s serum** reacts to a universal antigen present on all RBCs, including the patient’s own.
+-   **Key Feature:** The autoantibody causes pan-reactivity with all RBCs.
+-   **Summary:** Panagglutination is a **problem with the patient’s serum**.
+
+------------------------------------------------------------------------
+
+## Serology Testing: How They Differ
+
+-   **Panagglutination:**
+    -   Causes a pan-reactive panel with all donor cells a **positive red cellautocontrol**.
+-   **Polyagglutination:**
+    -   Causes a pan-reaction with all donor sera (against patient red cells), with a **negative serum autocontrol**.
+
+------------------------------------------------------------------------
+
+## Why You Likely Haven’t Seen Polyagglutination
+
+-   Polyagglutination would be detectable in tests using patient RBCs (e.g., forward ABO typing or DAT).
+-   Historically, using **serum from healthy Type A or B individuals** for forward typing would reveal polyagglutination due to universal anti-crypt antigen antibodies
+-   However, in most developed countries, **monoclonal antisera** is now used for forward typing, containing only anti-A and anti-B antibodies, which prevents the detection of polyagglutination.
+
+------------------------------------------------------------------------
+
+## Clinical Relevance of Polyagglutination
+
+-   **Clinical Impact:**
+    -   Theories suggest polyagglutinating antibodies may cause **in vivo hemolysis**, particularly in cases of sepsis (e.g., ICU patients with *Streptococcus pneumoniae* sepsis).
+    -   These events are typically **complement-mediated hemolysis**, resembling or contributing to **HUS (Hemolytic Uremic Syndrome)**.
+-   **Diagnosis:**
+    -   Polyagglutination can be detected by testing patient RBCs against healthy sera.
+    -   Hemolysis due to plasma transfusion may indicate polyagglutination.
+-   **Management:**
+    -   Avoid transfusing plasma if polyagglutination and in vivo hemolysis are proven.
+    -   This scenario is rare and typically described in case reports.
+-   **Further Testing:**
+    -   A system of **lectins** exists to identify the specific cause of crypt antigen exposure, whether genetic or acquired.
+
+------------------------------------------------------------------------
+
+### Additional Resource
+
+For a deeper dive into this phenomenon, read the excellent post on Polyagglutination featured on the **CSTM Blog** from a few years ago.

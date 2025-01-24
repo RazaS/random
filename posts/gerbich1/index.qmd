@@ -2,7 +2,7 @@
 title: "Gerbich Quick Facts"
 author: "Raza"
 date: "2024-11-12"
-categories: [transfusion]
+categories: [transfusion, FOTD]
 ---
 
 ### **Summary of Gerbich Blood Group System**
