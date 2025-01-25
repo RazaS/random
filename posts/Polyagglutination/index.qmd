@@ -27,7 +27,7 @@ Elution is performed when there is an antibody on red cells which needs to be re
 -   Getting clues about drug-related antibodies, which give positive DAT but negative eluate (±negative IAT panel)
 -   As a part of adsorption-elution procedures, which I will not go into here
 
-### How elutions are performed (steps here describe acid elution)
+#### How elutions are performed (steps here describe acid elution)
 
 -   'Wash red cells thoroughly (e.g. by gently inverting) to remove unbound antibodies and other unbound protein (things just sitting on the red cells), i.e. things which might cause cell non-specific clumping. Washing is typically done 3-4 times using a saline solution.
 -   Collect the fluid from the "**last wash**" of the red cells. The idea is that this last wash will not contain any unbound gunk (everything should've washed away in previous washes). We will use the last wash as a negative control later.
