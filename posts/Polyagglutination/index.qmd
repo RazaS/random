@@ -1,50 +1,65 @@
 ---
-title: "Elution"
+title: "Polyagglutination"
 author: "Raza"
-date: "2025-1-25"
+date: "2025-1-1"
 categories: [transfusion, FOTD]
 ---
 
-## Elution
+# Understanding Polyagglutination and Panagglutination
 
-Elution is performed when there is an antibody on red cells which needs to be removed
+## Polyagglutination
 
-#### Methods for elution of antibodies broadly include
+-   **Definition:** Polyagglutination occurs when crypt antigens on red cells are exposed, leading to spontaneous agglutination.\
+-   **Mechanism:**
+    -   Crypt antigens are red cell surface glycoproteins to which everyone makes naturally occurring **IgM antibodies**.
+    -   Normally, crypt antigens are unexposed and non-reactive.
+    -   When crypt antigens are exposed (via genetic anomalies or RBC surface modifications), universal anti-crypt antigen antibodies bind to them, causing agglutination.
+-   **Key Feature:** For a patient with exposed crypt antigens, **any serum** (other than the patient’s own) will cause the patient’s RBCs to agglutinate.
+-   **Summary:** Polyagglutination is a **problem with the patient’s RBCs**.
 
--   Acid elution. Negatively charge antigens and antibody, releasing the antibody
--   Heat elution. Antibody binding is exothermic. When you add heat back in, binding weakens and antibodies are released into the serum
--   Other methods, such as freeze-thaw, organic solvents, microwave, ultrasound methods, are less common.
+------------------------------------------------------------------------
 
-![](images/clipboard-2690959592.png){width="416"}
+## Panagglutination
 
-#### Reasons for elution include
+-   **Definition:** Panagglutination occurs when an **autoantibody in the patient’s serum** reacts to a universal antigen present on all RBCs, including the patient’s own.
+-   **Key Feature:** The autoantibody causes pan-reactivity with all RBCs.
+-   **Summary:** Panagglutination is a **problem with the patient’s serum**.
 
--   Confirming that an antibody found in the patient serum is in fact bound to red cells, in addition (e.g. for allo-antibodies or auto-antibodies)
--   Removing the antibody to identify its specificity (for allo- or auto-antibodies with specificity)
--   Removing the antibody so that it won't interfere with other tests that need to be performed on the red cells, e.g. phenotyping for antigens requiring IAT reagents, such as for litte-s
--   Removing an antibody which you suspect might be present and causing hemolysis, e.g. an anemic neonate who may have maternal antibodies present on fetal red cells, or, a suspected delayed hemolytic transfusion reaction with antibodies present on transfused red cells
--   Removing the antibody to concentrate it for further testing, e.g. if initial reactions against panel cells are weak, or for using in a cross-match against potential donor cells (such as for low frequency antigens for which blood units may not be labeled)
--   Getting clues about drug-related antibodies, which give positive DAT but negative eluate (±negative IAT panel)
--   As a part of adsorption-elution procedures, which I will not go into here
+------------------------------------------------------------------------
 
-#### How elutions are performed (steps here describe acid elution)
+## Serology Testing: How They Differ
 
--   'Wash red cells thoroughly (e.g. by gently inverting) to remove unbound antibodies and other unbound protein (things just sitting on the red cells), i.e. things which might cause cell non-specific clumping. Washing is typically done 3-4 times using a saline solution.
--   Collect the fluid from the "**last wash**" of the red cells. The idea is that this last wash will not contain any unbound gunk (everything should've washed away in previous washes). We will use the last wash as a negative control later.
--   To your washed cells, add acid elution reagent which is usually a low pH buffer. This will cause the antibody to be released from the red cells
--   Centrifuge the mixture, collect the supernatant/eluate, this should contain any bound antibodies
--   Neutralize the eluate back to a pH which allows antibody binding to red cells
--   Centrifuge eluate to remove debris (e.g. broken red cell membranes)
--   Test the eluate against cells of interest, read off as you would a normal panel
--   Crucial step: Test the **last wash** against cells of interest at the same time, which should be negative, showing that the red cells had nothing extra. If it isn't negative, your eluate isn't valid because it means there was residual unbound-something on the red cells which could instead explain any observed agglutination, rather than your eluted antibody of interest
+-   **Panagglutination:**
+    -   Causes a pan-reactive panel with a **positive autocontrol**.
+-   **Polyagglutination:**
+    -   Causes a pan-reactive panel with a **negative autocontrol**.
 
-#### Interesting tidbits
+------------------------------------------------------------------------
 
-- Positive DAT with negative eluate is a confusing scenario with a unique differential, including hypergammaglobulinema (e.g. myleoma, automimune diseases such as SLE, drugs, IVIG, uremia [?? CKD alters RBC membranes],  )
-- Elution is not always successful, e.g. if the antibody is too strongly bound to the red cell, or if the red cell is too fragile and breaks during the process
-- Elution is not always necessary, e.g. if the antibody is already known and the patient has a history of it, or if the antibody is not causing any problems
+## Why You Likely Haven’t Seen Polyagglutination
 
+-   Polyagglutination would be detectable in tests using patient RBCs (e.g., forward ABO typing or DAT).\
+-   Historically, using **serum from healthy Type A or B individuals** for forward typing would reveal polyagglutination due to universal anti-crypt antigen antibodies.\
+-   However, in most developed countries, **monoclonal antisera** is now used for forward typing, containing only anti-A and anti-B antibodies, which prevents the detection of polyagglutination.
 
+------------------------------------------------------------------------
 
+## Clinical Relevance of Polyagglutination
 
-For a deeper dive into elution, I suggest the following article by John Judd: [Elution](https://www.sciencedirect.com/science/article/abs/pii/S0887796399800595)
+-   **Clinical Impact:**
+    -   Theories suggest polyagglutinating antibodies may cause **in vivo hemolysis**, particularly in cases of sepsis (e.g., ICU patients with *Streptococcus pneumoniae* sepsis).\
+    -   These events are typically **complement-mediated hemolysis**, resembling or contributing to **HUS (Hemolytic Uremic Syndrome)**.
+-   **Diagnosis:**
+    -   Polyagglutination can be detected by testing patient RBCs against healthy sera.\
+    -   Hemolysis due to plasma transfusion may indicate polyagglutination.
+-   **Management:**
+    -   Avoid transfusing plasma if polyagglutination and in vivo hemolysis are proven.\
+    -   This scenario is rare and typically described in case reports.
+-   **Further Testing:**
+    -   A system of **lectins** exists to identify the specific cause of crypt antigen exposure, whether genetic or acquired.
+
+------------------------------------------------------------------------
+
+### Additional Resource
+
+For a deeper dive into this phenomenon, read [this excellent post](https://www.transfusion.ca/Resources/CSTM-Blog/April-2016/Do-you-want-to-know-more-about-lectins) on Polyagglutination featured on the **CSTM Blog** from a few years ago.
