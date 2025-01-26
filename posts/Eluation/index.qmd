@@ -40,7 +40,7 @@ Elution is used when there is an antibody on red cells, and you want to remove i
 
 #### Interesting tidbits
 
--   Positive DAT with negative eluate is a confusing scenario with a unique differential, including hypergammaglobulinema (e.g. myleoma, automimune diseases such as SLE, drugs, IVIG, uremia \[?? CKD alters RBC membranes\], )
+-   Positive DAT with negative eluate is a confusing scenario with a unique differential, including hypergammaglobulinema (e.g. myleoma, automimune diseases such as SLE, drugs, IVIG, uremia \[?? CKD alters RBC membranes\])
 -   Elution is not always successful, e.g. if the antibody is too strongly bound to the red cell, or if the red cell is too fragile and breaks during the process
 -   Elution is not always necessary, e.g. if the antibody is already known and the patient has a history of it, or if the antibody is not causing any problems
 
