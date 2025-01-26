@@ -7,7 +7,7 @@ categories: [transfusion, FOTD]
 
 ## Elution
 
-Elution is performed when there is an antibody on red cells which needs to be removed
+Elution is used when there is an antibody on red cells, and you want to remove it either to get rid of it (so you can test the red cells without their interference), or because you want to test the antibodies (confirm their presence or specificity)
 
 #### Methods for elution of antibodies broadly include
 
