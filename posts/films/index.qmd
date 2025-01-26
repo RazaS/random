@@ -21,6 +21,8 @@ categories: [list,culture]
 
 <summary>Seen, Awaiting Category</summary>
 
+-   The Count of Monte Cristo (2024)
+-   Vermiglio
 -   Soylent Green
 -   Memoir of a Snail
 -   The Wild Robot
